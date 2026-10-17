@@ -1,0 +1,906 @@
+country_code,country_name,rank,similar_country_code,similar_country_name,distance,closest_feature_1,closest_feature_2,biggest_difference_1,biggest_difference_2
+AFG,Afghanistan,1,BDI,Burundi,0.6816,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+AFG,Afghanistan,2,MOZ,Mozambique,0.6936,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+AFG,Afghanistan,3,UGA,Uganda,0.7973,population_65_plus_pct,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+AFG,Afghanistan,4,MDG,Madagascar,0.861,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+AFG,Afghanistan,5,ETH,Ethiopia,0.8747,urban_population_pct,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+AGO,Angola,1,MRT,Mauritania,0.8544,population_65_plus_pct,internet_usage_pct,life_expectancy,urban_population_pct
+AGO,Angola,2,COG,"Congo, Rep.",0.9407,population_65_plus_pct,life_expectancy,fertility_rate,urban_population_pct
+AGO,Angola,3,CIV,Cote d'Ivoire,1.107,internet_usage_pct,population_65_plus_pct,urban_population_pct,fertility_rate
+AGO,Angola,4,CMR,Cameroon,1.1155,population_65_plus_pct,life_expectancy,urban_population_pct,fertility_rate
+AGO,Angola,5,GNQ,Equatorial Guinea,1.2573,urban_population_pct,population_65_plus_pct,internet_usage_pct,fertility_rate
+ALB,Albania,1,MKD,North Macedonia,0.5735,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+ALB,Albania,2,THA,Thailand,0.5806,gdp_per_capita_ppp,fertility_rate,life_expectancy,population_65_plus_pct
+ALB,Albania,3,MNE,Montenegro,0.6049,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+ALB,Albania,4,SVK,Slovak Republic,0.6419,fertility_rate,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+ALB,Albania,5,CHN,China,0.6639,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+AND,Andorra,1,AUS,Australia,0.4331,urban_population_pct,internet_usage_pct,fertility_rate,population_65_plus_pct
+AND,Andorra,2,ISL,Iceland,0.5244,gdp_per_capita_ppp,population_65_plus_pct,fertility_rate,urban_population_pct
+AND,Andorra,3,NOR,Norway,0.6131,life_expectancy,internet_usage_pct,population_65_plus_pct,fertility_rate
+AND,Andorra,4,CHE,Switzerland,0.6272,life_expectancy,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp
+AND,Andorra,5,NZL,New Zealand,0.6327,internet_usage_pct,population_65_plus_pct,fertility_rate,life_expectancy
+ARE,United Arab Emirates,1,KWT,Kuwait,0.8135,internet_usage_pct,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+ARE,United Arab Emirates,2,QAT,Qatar,0.8573,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+ARE,United Arab Emirates,3,BHR,Bahrain,0.8955,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+ARE,United Arab Emirates,4,SAU,Saudi Arabia,1.0749,internet_usage_pct,urban_population_pct,fertility_rate,life_expectancy
+ARE,United Arab Emirates,5,OMN,Oman,1.3048,population_65_plus_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+ARG,Argentina,1,TUR,Turkiye,0.4234,internet_usage_pct,life_expectancy,gdp_per_capita_ppp,population_65_plus_pct
+ARG,Argentina,2,BRA,Brazil,0.4895,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+ARG,Argentina,3,URY,Uruguay,0.5653,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+ARG,Argentina,4,BHS,"Bahamas, The",0.6944,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+ARG,Argentina,5,CHL,Chile,0.7317,gdp_per_capita_ppp,urban_population_pct,life_expectancy,fertility_rate
+ARM,Armenia,1,GEO,Georgia,0.6253,fertility_rate,internet_usage_pct,life_expectancy,urban_population_pct
+ARM,Armenia,2,THA,Thailand,0.6621,gdp_per_capita_ppp,urban_population_pct,fertility_rate,internet_usage_pct
+ARM,Armenia,3,ALB,Albania,0.6834,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+ARM,Armenia,4,MNE,Montenegro,0.6907,urban_population_pct,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp
+ARM,Armenia,5,BRB,Barbados,0.6962,fertility_rate,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct
+ATG,Antigua and Barbuda,1,GRD,Grenada,0.8084,population_65_plus_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+ATG,Antigua and Barbuda,2,LCA,St. Lucia,0.8472,fertility_rate,internet_usage_pct,life_expectancy,population_65_plus_pct
+ATG,Antigua and Barbuda,3,KNA,St. Kitts and Nevis,0.8602,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+ATG,Antigua and Barbuda,4,MUS,Mauritius,0.9152,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+ATG,Antigua and Barbuda,5,LKA,Sri Lanka,1.0322,life_expectancy,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+AUS,Australia,1,NZL,New Zealand,0.3306,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+AUS,Australia,2,GBR,United Kingdom,0.3944,internet_usage_pct,fertility_rate,life_expectancy,population_65_plus_pct
+AUS,Australia,3,BEL,Belgium,0.4097,urban_population_pct,internet_usage_pct,population_65_plus_pct,life_expectancy
+AUS,Australia,4,NOR,Norway,0.4134,life_expectancy,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+AUS,Australia,5,SWE,Sweden,0.4184,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+AUT,Austria,1,CZE,Czechia,0.4161,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+AUT,Austria,2,FIN,Finland,0.5075,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+AUT,Austria,3,EST,Estonia,0.526,internet_usage_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+AUT,Austria,4,FRA,France,0.5793,internet_usage_pct,life_expectancy,urban_population_pct,fertility_rate
+AUT,Austria,5,CAN,Canada,0.6362,life_expectancy,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+AZE,Azerbaijan,1,JAM,Jamaica,0.7251,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,life_expectancy
+AZE,Azerbaijan,2,TTO,Trinidad and Tobago,0.7412,fertility_rate,life_expectancy,population_65_plus_pct,internet_usage_pct
+AZE,Azerbaijan,3,SUR,Suriname,0.773,life_expectancy,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+AZE,Azerbaijan,4,SYC,Seychelles,0.7948,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+AZE,Azerbaijan,5,BTN,Bhutan,0.8392,fertility_rate,internet_usage_pct,urban_population_pct,population_65_plus_pct
+BDI,Burundi,1,AFG,Afghanistan,0.6816,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+BDI,Burundi,2,MOZ,Mozambique,0.766,life_expectancy,population_65_plus_pct,urban_population_pct,internet_usage_pct
+BDI,Burundi,3,MDG,Madagascar,0.9742,life_expectancy,population_65_plus_pct,fertility_rate,internet_usage_pct
+BDI,Burundi,4,NER,Niger,1.1846,population_65_plus_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+BDI,Burundi,5,UGA,Uganda,1.2475,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+BEL,Belgium,1,DNK,Denmark,0.1961,life_expectancy,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+BEL,Belgium,2,SWE,Sweden,0.2551,internet_usage_pct,population_65_plus_pct,life_expectancy,urban_population_pct
+BEL,Belgium,3,CAN,Canada,0.3083,life_expectancy,internet_usage_pct,urban_population_pct,fertility_rate
+BEL,Belgium,4,GBR,United Kingdom,0.3313,internet_usage_pct,fertility_rate,urban_population_pct,population_65_plus_pct
+BEL,Belgium,5,NLD,Netherlands,0.4088,fertility_rate,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+BEN,Benin,1,CIV,Cote d'Ivoire,0.6141,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+BEN,Benin,2,TGO,Togo,0.6334,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+BEN,Benin,3,CMR,Cameroon,0.6983,population_65_plus_pct,urban_population_pct,internet_usage_pct,life_expectancy
+BEN,Benin,4,GIN,Guinea,0.7403,life_expectancy,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+BEN,Benin,5,SLE,Sierra Leone,0.8447,population_65_plus_pct,life_expectancy,fertility_rate,internet_usage_pct
+BFA,Burkina Faso,1,GIN,Guinea,0.6469,fertility_rate,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+BFA,Burkina Faso,2,MDG,Madagascar,0.7054,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+BFA,Burkina Faso,3,SLE,Sierra Leone,0.8817,population_65_plus_pct,life_expectancy,urban_population_pct,fertility_rate
+BFA,Burkina Faso,4,TGO,Togo,0.9119,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+BFA,Burkina Faso,5,MOZ,Mozambique,0.9211,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+BGD,Bangladesh,1,IND,India,0.8006,population_65_plus_pct,urban_population_pct,internet_usage_pct,life_expectancy
+BGD,Bangladesh,2,KHM,Cambodia,0.9785,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+BGD,Bangladesh,3,LAO,Lao PDR,1.0407,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+BGD,Bangladesh,4,TJK,Tajikistan,1.0809,internet_usage_pct,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+BGD,Bangladesh,5,TON,Tonga,1.1502,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,internet_usage_pct
+BGR,Bulgaria,1,HUN,Hungary,0.5879,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,fertility_rate
+BGR,Bulgaria,2,LVA,Latvia,0.6298,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,fertility_rate
+BGR,Bulgaria,3,SRB,Serbia,0.6302,life_expectancy,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+BGR,Bulgaria,4,LTU,Lithuania,0.7085,life_expectancy,population_65_plus_pct,fertility_rate,internet_usage_pct
+BGR,Bulgaria,5,CZE,Czechia,0.7549,urban_population_pct,population_65_plus_pct,life_expectancy,fertility_rate
+BHR,Bahrain,1,KWT,Kuwait,0.5341,urban_population_pct,internet_usage_pct,life_expectancy,fertility_rate
+BHR,Bahrain,2,QAT,Qatar,0.6347,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+BHR,Bahrain,3,SAU,Saudi Arabia,0.8945,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+BHR,Bahrain,4,ARE,United Arab Emirates,0.8955,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+BHR,Bahrain,5,OMN,Oman,1.2297,life_expectancy,population_65_plus_pct,urban_population_pct,fertility_rate
+BHS,"Bahamas, The",1,TUR,Turkiye,0.5932,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+BHS,"Bahamas, The",2,ARG,Argentina,0.6944,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+BHS,"Bahamas, The",3,MYS,Malaysia,0.7051,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct,life_expectancy
+BHS,"Bahamas, The",4,BRA,Brazil,0.7216,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,internet_usage_pct
+BHS,"Bahamas, The",5,MEX,Mexico,0.8552,urban_population_pct,life_expectancy,population_65_plus_pct,fertility_rate
+BIH,Bosnia and Herzegovina,1,SRB,Serbia,0.6057,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+BIH,Bosnia and Herzegovina,2,HRV,Croatia,0.6622,fertility_rate,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+BIH,Bosnia and Herzegovina,3,ROU,Romania,0.7645,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+BIH,Bosnia and Herzegovina,4,SVK,Slovak Republic,0.784,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+BIH,Bosnia and Herzegovina,5,ALB,Albania,0.8217,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+BLR,Belarus,1,RUS,Russian Federation,0.4255,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+BLR,Belarus,2,HUN,Hungary,0.741,internet_usage_pct,fertility_rate,urban_population_pct,population_65_plus_pct
+BLR,Belarus,3,LVA,Latvia,0.8266,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+BLR,Belarus,4,LTU,Lithuania,0.8525,fertility_rate,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+BLR,Belarus,5,MKD,North Macedonia,0.8594,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+BLZ,Belize,1,IND,India,0.6407,fertility_rate,life_expectancy,internet_usage_pct,population_65_plus_pct
+BLZ,Belize,2,VNM,Viet Nam,0.6649,fertility_rate,urban_population_pct,population_65_plus_pct,internet_usage_pct
+BLZ,Belize,3,BTN,Bhutan,0.724,life_expectancy,urban_population_pct,fertility_rate,internet_usage_pct
+BLZ,Belize,4,EGY,"Egypt, Arab Rep.",0.7264,population_65_plus_pct,urban_population_pct,fertility_rate,life_expectancy
+BLZ,Belize,5,KGZ,Kyrgyz Republic,0.8795,population_65_plus_pct,life_expectancy,internet_usage_pct,fertility_rate
+BOL,Bolivia,1,ZAF,South Africa,0.6071,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+BOL,Bolivia,2,FJI,Fiji,0.69,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+BOL,Bolivia,3,MNG,Mongolia,0.6939,fertility_rate,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+BOL,Bolivia,4,DJI,Djibouti,0.7825,urban_population_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+BOL,Bolivia,5,MHL,Marshall Islands,0.8176,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+BRA,Brazil,1,ARG,Argentina,0.4895,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+BRA,Brazil,2,PER,Peru,0.5379,internet_usage_pct,urban_population_pct,fertility_rate,population_65_plus_pct
+BRA,Brazil,3,COL,Colombia,0.5736,fertility_rate,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+BRA,Brazil,4,MEX,Mexico,0.6136,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+BRA,Brazil,5,TUR,Turkiye,0.6634,urban_population_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+BRB,Barbados,1,GEO,Georgia,0.6242,urban_population_pct,fertility_rate,internet_usage_pct,life_expectancy
+BRB,Barbados,2,ARM,Armenia,0.6962,fertility_rate,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct
+BRB,Barbados,3,ALB,Albania,0.847,urban_population_pct,population_65_plus_pct,internet_usage_pct,life_expectancy
+BRB,Barbados,4,MNE,Montenegro,0.8824,fertility_rate,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+BRB,Barbados,5,TTO,Trinidad and Tobago,0.9369,fertility_rate,urban_population_pct,population_65_plus_pct,internet_usage_pct
+BRN,Brunei Darussalam,1,MYS,Malaysia,0.7531,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+BRN,Brunei Darussalam,2,SAU,Saudi Arabia,1.0188,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,life_expectancy
+BRN,Brunei Darussalam,3,BHS,"Bahamas, The",1.0657,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct
+BRN,Brunei Darussalam,4,TUR,Turkiye,1.1019,fertility_rate,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+BRN,Brunei Darussalam,5,DOM,Dominican Republic,1.1455,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+BTN,Bhutan,1,VNM,Viet Nam,0.6778,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct,fertility_rate
+BTN,Bhutan,2,BLZ,Belize,0.724,life_expectancy,urban_population_pct,fertility_rate,internet_usage_pct
+BTN,Bhutan,3,SYC,Seychelles,0.8192,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp,life_expectancy
+BTN,Bhutan,4,AZE,Azerbaijan,0.8392,fertility_rate,internet_usage_pct,urban_population_pct,population_65_plus_pct
+BTN,Bhutan,5,JAM,Jamaica,0.8861,internet_usage_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+BWA,Botswana,1,GTM,Guatemala,0.8545,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+BWA,Botswana,2,DJI,Djibouti,0.979,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+BWA,Botswana,3,FJI,Fiji,0.9903,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,urban_population_pct
+BWA,Botswana,4,MHL,Marshall Islands,1.0132,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+BWA,Botswana,5,BOL,Bolivia,1.0351,life_expectancy,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+CAF,Central African Republic,1,COD,"Congo, Dem. Rep.",0.7447,fertility_rate,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+CAF,Central African Republic,2,SOM,"Somalia, Fed. Rep.",0.7962,fertility_rate,population_65_plus_pct,internet_usage_pct,urban_population_pct
+CAF,Central African Republic,3,TCD,Chad,1.0952,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+CAF,Central African Republic,4,NER,Niger,1.3846,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+CAF,Central African Republic,5,MOZ,Mozambique,1.4234,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+CAN,Canada,1,GBR,United Kingdom,0.2814,urban_population_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+CAN,Canada,2,BEL,Belgium,0.3083,life_expectancy,internet_usage_pct,urban_population_pct,fertility_rate
+CAN,Canada,3,ESP,Spain,0.3686,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+CAN,Canada,4,SWE,Sweden,0.4391,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+CAN,Canada,5,AUS,Australia,0.4467,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+CHE,Switzerland,1,NOR,Norway,0.3096,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+CHE,Switzerland,2,SWE,Sweden,0.3702,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+CHE,Switzerland,3,DNK,Denmark,0.4276,population_65_plus_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+CHE,Switzerland,4,BEL,Belgium,0.4396,internet_usage_pct,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+CHE,Switzerland,5,AUS,Australia,0.5171,internet_usage_pct,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp
+CHL,Chile,1,URY,Uruguay,0.6241,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,urban_population_pct
+CHL,Chile,2,CRI,Costa Rica,0.6311,life_expectancy,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+CHL,Chile,3,NZL,New Zealand,0.7045,internet_usage_pct,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp
+CHL,Chile,4,ARG,Argentina,0.7317,gdp_per_capita_ppp,urban_population_pct,life_expectancy,fertility_rate
+CHL,Chile,5,AND,Andorra,0.8055,urban_population_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+CHN,China,1,THA,Thailand,0.3529,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+CHN,China,2,MKD,North Macedonia,0.6424,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,fertility_rate
+CHN,China,3,ALB,Albania,0.6639,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+CHN,China,4,ARM,Armenia,0.7141,urban_population_pct,life_expectancy,fertility_rate,internet_usage_pct
+CHN,China,5,MNE,Montenegro,0.8157,life_expectancy,urban_population_pct,fertility_rate,population_65_plus_pct
+CIV,Cote d'Ivoire,1,CMR,Cameroon,0.4469,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+CIV,Cote d'Ivoire,2,BEN,Benin,0.6141,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+CIV,Cote d'Ivoire,3,COG,"Congo, Rep.",0.7516,population_65_plus_pct,fertility_rate,life_expectancy,urban_population_pct
+CIV,Cote d'Ivoire,4,TGO,Togo,0.7899,internet_usage_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+CIV,Cote d'Ivoire,5,ZWE,Zimbabwe,0.8346,internet_usage_pct,population_65_plus_pct,urban_population_pct,fertility_rate
+CMR,Cameroon,1,CIV,Cote d'Ivoire,0.4469,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+CMR,Cameroon,2,COG,"Congo, Rep.",0.5353,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+CMR,Cameroon,3,TGO,Togo,0.6893,population_65_plus_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+CMR,Cameroon,4,BEN,Benin,0.6983,population_65_plus_pct,urban_population_pct,internet_usage_pct,life_expectancy
+CMR,Cameroon,5,GMB,"Gambia, The",0.7204,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+COD,"Congo, Dem. Rep.",1,SOM,"Somalia, Fed. Rep.",0.7289,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+COD,"Congo, Dem. Rep.",2,CAF,Central African Republic,0.7447,fertility_rate,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+COD,"Congo, Dem. Rep.",3,MLI,Mali,1.135,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+COD,"Congo, Dem. Rep.",4,MOZ,Mozambique,1.1438,internet_usage_pct,population_65_plus_pct,fertility_rate,urban_population_pct
+COD,"Congo, Dem. Rep.",5,NER,Niger,1.2484,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+COG,"Congo, Rep.",1,CMR,Cameroon,0.5353,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+COG,"Congo, Rep.",2,MRT,Mauritania,0.583,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+COG,"Congo, Rep.",3,GMB,"Gambia, The",0.6123,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+COG,"Congo, Rep.",4,CIV,Cote d'Ivoire,0.7516,population_65_plus_pct,fertility_rate,life_expectancy,urban_population_pct
+COG,"Congo, Rep.",5,SEN,Senegal,0.8505,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+COL,Colombia,1,IRN,"Iran, Islamic Rep.",0.357,life_expectancy,fertility_rate,internet_usage_pct,population_65_plus_pct
+COL,Colombia,2,PER,Peru,0.466,life_expectancy,population_65_plus_pct,urban_population_pct,fertility_rate
+COL,Colombia,3,MEX,Mexico,0.5219,urban_population_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+COL,Colombia,4,TUN,Tunisia,0.5657,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+COL,Colombia,5,BRA,Brazil,0.5736,fertility_rate,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+COM,Comoros,1,RWA,Rwanda,0.2529,gdp_per_capita_ppp,internet_usage_pct,fertility_rate,urban_population_pct
+COM,Comoros,2,TZA,Tanzania,0.6357,life_expectancy,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct
+COM,Comoros,3,ETH,Ethiopia,0.6624,fertility_rate,life_expectancy,urban_population_pct,internet_usage_pct
+COM,Comoros,4,SLB,Solomon Islands,0.708,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+COM,Comoros,5,GNB,Guinea-Bissau,0.7609,fertility_rate,internet_usage_pct,urban_population_pct,life_expectancy
+CPV,Cabo Verde,1,TUN,Tunisia,0.5972,life_expectancy,internet_usage_pct,population_65_plus_pct,urban_population_pct
+CPV,Cabo Verde,2,IRN,"Iran, Islamic Rep.",0.6818,urban_population_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+CPV,Cabo Verde,3,SLV,El Salvador,0.7084,urban_population_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+CPV,Cabo Verde,4,COL,Colombia,0.7525,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+CPV,Cabo Verde,5,ECU,Ecuador,0.8036,internet_usage_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+CRI,Costa Rica,1,CHL,Chile,0.6311,life_expectancy,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+CRI,Costa Rica,2,COL,Colombia,0.7704,urban_population_pct,fertility_rate,life_expectancy,population_65_plus_pct
+CRI,Costa Rica,3,ARG,Argentina,0.775,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+CRI,Costa Rica,4,TUR,Turkiye,0.7937,internet_usage_pct,fertility_rate,life_expectancy,urban_population_pct
+CRI,Costa Rica,5,CHN,China,0.8631,gdp_per_capita_ppp,internet_usage_pct,urban_population_pct,life_expectancy
+CYP,Cyprus,1,IRL,Ireland,0.8611,fertility_rate,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct
+CYP,Cyprus,2,AUT,Austria,0.8762,life_expectancy,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp
+CYP,Cyprus,3,CRI,Costa Rica,0.8868,fertility_rate,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+CYP,Cyprus,4,NZL,New Zealand,0.9084,life_expectancy,gdp_per_capita_ppp,urban_population_pct,population_65_plus_pct
+CYP,Cyprus,5,CHN,China,0.9183,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp,life_expectancy
+CZE,Czechia,1,EST,Estonia,0.3123,population_65_plus_pct,life_expectancy,internet_usage_pct,fertility_rate
+CZE,Czechia,2,AUT,Austria,0.4161,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+CZE,Czechia,3,LTU,Lithuania,0.4815,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,fertility_rate
+CZE,Czechia,4,HUN,Hungary,0.5516,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+CZE,Czechia,5,FRA,France,0.5741,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+DEU,Germany,1,FIN,Finland,0.4412,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+DEU,Germany,2,FRA,France,0.4902,gdp_per_capita_ppp,urban_population_pct,life_expectancy,fertility_rate
+DEU,Germany,3,BEL,Belgium,0.5123,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct,urban_population_pct
+DEU,Germany,4,CAN,Canada,0.527,urban_population_pct,internet_usage_pct,population_65_plus_pct,life_expectancy
+DEU,Germany,5,GRC,Greece,0.5808,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+DJI,Djibouti,1,MHL,Marshall Islands,0.3706,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+DJI,Djibouti,2,BOL,Bolivia,0.7825,urban_population_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+DJI,Djibouti,3,GHA,Ghana,0.9342,gdp_per_capita_ppp,life_expectancy,urban_population_pct,fertility_rate
+DJI,Djibouti,4,ZAF,South Africa,0.966,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+DJI,Djibouti,5,BWA,Botswana,0.979,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+DMA,Dominica,1,PLW,Palau,0.5275,gdp_per_capita_ppp,internet_usage_pct,fertility_rate,life_expectancy
+DMA,Dominica,2,BHS,"Bahamas, The",0.9011,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+DMA,Dominica,3,GEO,Georgia,0.9136,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+DMA,Dominica,4,MEX,Mexico,0.9592,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,life_expectancy
+DMA,Dominica,5,BRA,Brazil,0.9666,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,urban_population_pct
+DNK,Denmark,1,BEL,Belgium,0.1961,life_expectancy,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+DNK,Denmark,2,SWE,Sweden,0.3245,urban_population_pct,population_65_plus_pct,life_expectancy,internet_usage_pct
+DNK,Denmark,3,NLD,Netherlands,0.3519,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+DNK,Denmark,4,CHE,Switzerland,0.4276,population_65_plus_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+DNK,Denmark,5,NOR,Norway,0.4374,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+DOM,Dominican Republic,1,SUR,Suriname,0.3985,population_65_plus_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+DOM,Dominican Republic,2,PRY,Paraguay,0.5582,life_expectancy,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp
+DOM,Dominican Republic,3,MEX,Mexico,0.5824,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+DOM,Dominican Republic,4,MNG,Mongolia,0.6112,urban_population_pct,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp
+DOM,Dominican Republic,5,MYS,Malaysia,0.84,population_65_plus_pct,urban_population_pct,fertility_rate,life_expectancy
+DZA,Algeria,1,PRY,Paraguay,0.5271,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+DZA,Algeria,2,MNG,Mongolia,0.7355,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+DZA,Algeria,3,MEX,Mexico,0.8445,life_expectancy,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+DZA,Algeria,4,SUR,Suriname,0.8607,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,fertility_rate
+DZA,Algeria,5,PER,Peru,0.8888,gdp_per_capita_ppp,internet_usage_pct,fertility_rate,urban_population_pct
+ECU,Ecuador,1,TUN,Tunisia,0.4106,fertility_rate,internet_usage_pct,urban_population_pct,population_65_plus_pct
+ECU,Ecuador,2,IRN,"Iran, Islamic Rep.",0.7417,population_65_plus_pct,life_expectancy,urban_population_pct,internet_usage_pct
+ECU,Ecuador,3,MAR,Morocco,0.7968,urban_population_pct,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+ECU,Ecuador,4,COL,Colombia,0.8029,life_expectancy,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+ECU,Ecuador,5,CPV,Cabo Verde,0.8036,internet_usage_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+EGY,"Egypt, Arab Rep.",1,BLZ,Belize,0.7264,population_65_plus_pct,urban_population_pct,fertility_rate,life_expectancy
+EGY,"Egypt, Arab Rep.",2,LAO,Lao PDR,0.829,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct
+EGY,"Egypt, Arab Rep.",3,KHM,Cambodia,0.8303,urban_population_pct,life_expectancy,gdp_per_capita_ppp,internet_usage_pct
+EGY,"Egypt, Arab Rep.",4,IND,India,0.9208,life_expectancy,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+EGY,"Egypt, Arab Rep.",5,GTM,Guatemala,0.9619,population_65_plus_pct,life_expectancy,urban_population_pct,internet_usage_pct
+ESP,Spain,1,KOR,"Korea, Rep.",0.3551,urban_population_pct,life_expectancy,fertility_rate,population_65_plus_pct
+ESP,Spain,2,CAN,Canada,0.3686,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+ESP,Spain,3,SWE,Sweden,0.5146,internet_usage_pct,life_expectancy,urban_population_pct,fertility_rate
+ESP,Spain,4,FIN,Finland,0.5232,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+ESP,Spain,5,BEL,Belgium,0.5279,internet_usage_pct,population_65_plus_pct,urban_population_pct,fertility_rate
+EST,Estonia,1,CZE,Czechia,0.3123,population_65_plus_pct,life_expectancy,internet_usage_pct,fertility_rate
+EST,Estonia,2,LTU,Lithuania,0.3702,fertility_rate,urban_population_pct,life_expectancy,population_65_plus_pct
+EST,Estonia,3,HUN,Hungary,0.4195,urban_population_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+EST,Estonia,4,LVA,Latvia,0.4299,internet_usage_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+EST,Estonia,5,AUT,Austria,0.526,internet_usage_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+ETH,Ethiopia,1,RWA,Rwanda,0.57,life_expectancy,population_65_plus_pct,internet_usage_pct,urban_population_pct
+ETH,Ethiopia,2,COM,Comoros,0.6624,fertility_rate,life_expectancy,urban_population_pct,internet_usage_pct
+ETH,Ethiopia,3,UGA,Uganda,0.694,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,urban_population_pct
+ETH,Ethiopia,4,MWI,Malawi,0.7022,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+ETH,Ethiopia,5,SLB,Solomon Islands,0.7301,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+FIN,Finland,1,ITA,Italy,0.3905,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+FIN,Finland,2,DEU,Germany,0.4412,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+FIN,Finland,3,FRA,France,0.4764,gdp_per_capita_ppp,life_expectancy,fertility_rate,population_65_plus_pct
+FIN,Finland,4,GRC,Greece,0.4973,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+FIN,Finland,5,AUT,Austria,0.5075,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+FJI,Fiji,1,ZAF,South Africa,0.3,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,life_expectancy
+FJI,Fiji,2,IDN,Indonesia,0.5701,urban_population_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+FJI,Fiji,3,PHL,Philippines,0.6316,population_65_plus_pct,urban_population_pct,life_expectancy,fertility_rate
+FJI,Fiji,4,BOL,Bolivia,0.69,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+FJI,Fiji,5,GTM,Guatemala,0.9778,fertility_rate,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+FRA,France,1,FIN,Finland,0.4764,gdp_per_capita_ppp,life_expectancy,fertility_rate,population_65_plus_pct
+FRA,France,2,DEU,Germany,0.4902,gdp_per_capita_ppp,urban_population_pct,life_expectancy,fertility_rate
+FRA,France,3,GRC,Greece,0.5292,urban_population_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+FRA,France,4,CAN,Canada,0.535,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct,fertility_rate
+FRA,France,5,ESP,Spain,0.5421,gdp_per_capita_ppp,urban_population_pct,fertility_rate,internet_usage_pct
+FSM,"Micronesia, Fed. Sts.",1,RWA,Rwanda,0.9438,gdp_per_capita_ppp,life_expectancy,fertility_rate,urban_population_pct
+FSM,"Micronesia, Fed. Sts.",2,KEN,Kenya,0.9555,internet_usage_pct,fertility_rate,life_expectancy,urban_population_pct
+FSM,"Micronesia, Fed. Sts.",3,PNG,Papua New Guinea,1.0089,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,population_65_plus_pct
+FSM,"Micronesia, Fed. Sts.",4,TJK,Tajikistan,1.0232,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+FSM,"Micronesia, Fed. Sts.",5,COM,Comoros,1.0911,life_expectancy,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+GAB,Gabon,1,MHL,Marshall Islands,1.178,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+GAB,Gabon,2,NRU,Naoero,1.2025,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+GAB,Gabon,3,GNQ,Equatorial Guinea,1.2669,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+GAB,Gabon,4,LBY,Libya,1.2833,population_65_plus_pct,urban_population_pct,fertility_rate,internet_usage_pct
+GAB,Gabon,5,IRQ,Iraq,1.3558,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+GBR,United Kingdom,1,CAN,Canada,0.2814,urban_population_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+GBR,United Kingdom,2,NZL,New Zealand,0.3284,fertility_rate,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp
+GBR,United Kingdom,3,BEL,Belgium,0.3313,internet_usage_pct,fertility_rate,urban_population_pct,population_65_plus_pct
+GBR,United Kingdom,4,AUS,Australia,0.3944,internet_usage_pct,fertility_rate,life_expectancy,population_65_plus_pct
+GBR,United Kingdom,5,DNK,Denmark,0.4457,fertility_rate,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+GEO,Georgia,1,BRB,Barbados,0.6242,urban_population_pct,fertility_rate,internet_usage_pct,life_expectancy
+GEO,Georgia,2,ARM,Armenia,0.6253,fertility_rate,internet_usage_pct,life_expectancy,urban_population_pct
+GEO,Georgia,3,TTO,Trinidad and Tobago,0.6315,internet_usage_pct,life_expectancy,population_65_plus_pct,urban_population_pct
+GEO,Georgia,4,THA,Thailand,0.6348,population_65_plus_pct,urban_population_pct,fertility_rate,internet_usage_pct
+GEO,Georgia,5,MNE,Montenegro,0.6409,fertility_rate,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+GHA,Ghana,1,NAM,Namibia,0.6168,population_65_plus_pct,fertility_rate,urban_population_pct,internet_usage_pct
+GHA,Ghana,2,SEN,Senegal,0.8542,population_65_plus_pct,urban_population_pct,internet_usage_pct,life_expectancy
+GHA,Ghana,3,DJI,Djibouti,0.9342,gdp_per_capita_ppp,life_expectancy,urban_population_pct,fertility_rate
+GHA,Ghana,4,STP,Sao Tome and Principe,0.9735,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+GHA,Ghana,5,KIR,Kiribati,1.0175,population_65_plus_pct,life_expectancy,internet_usage_pct,gdp_per_capita_ppp
+GIN,Guinea,1,TGO,Togo,0.4911,population_65_plus_pct,fertility_rate,life_expectancy,urban_population_pct
+GIN,Guinea,2,ZWE,Zimbabwe,0.6356,population_65_plus_pct,urban_population_pct,fertility_rate,internet_usage_pct
+GIN,Guinea,3,BFA,Burkina Faso,0.6469,fertility_rate,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+GIN,Guinea,4,SLE,Sierra Leone,0.6541,population_65_plus_pct,life_expectancy,fertility_rate,urban_population_pct
+GIN,Guinea,5,BEN,Benin,0.7403,life_expectancy,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+GMB,"Gambia, The",1,COG,"Congo, Rep.",0.6123,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+GMB,"Gambia, The",2,CMR,Cameroon,0.7204,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+GMB,"Gambia, The",3,SEN,Senegal,0.8062,population_65_plus_pct,fertility_rate,internet_usage_pct,urban_population_pct
+GMB,"Gambia, The",4,STP,Sao Tome and Principe,0.8774,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+GMB,"Gambia, The",5,MRT,Mauritania,0.9613,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+GNB,Guinea-Bissau,1,SLE,Sierra Leone,0.3881,population_65_plus_pct,urban_population_pct,life_expectancy,internet_usage_pct
+GNB,Guinea-Bissau,2,TGO,Togo,0.5652,population_65_plus_pct,urban_population_pct,internet_usage_pct,fertility_rate
+GNB,Guinea-Bissau,3,LBR,Liberia,0.686,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+GNB,Guinea-Bissau,4,ZMB,Zambia,0.7077,urban_population_pct,population_65_plus_pct,internet_usage_pct,life_expectancy
+GNB,Guinea-Bissau,5,COM,Comoros,0.7609,fertility_rate,internet_usage_pct,urban_population_pct,life_expectancy
+GNQ,Equatorial Guinea,1,COG,"Congo, Rep.",1.0516,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+GNQ,Equatorial Guinea,2,GHA,Ghana,1.103,population_65_plus_pct,life_expectancy,fertility_rate,urban_population_pct
+GNQ,Equatorial Guinea,3,STP,Sao Tome and Principe,1.2492,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+GNQ,Equatorial Guinea,4,AGO,Angola,1.2573,urban_population_pct,population_65_plus_pct,internet_usage_pct,fertility_rate
+GNQ,Equatorial Guinea,5,GAB,Gabon,1.2669,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+GRC,Greece,1,FIN,Finland,0.4973,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+GRC,Greece,2,FRA,France,0.5292,urban_population_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+GRC,Greece,3,DEU,Germany,0.5808,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+GRC,Greece,4,ITA,Italy,0.6199,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+GRC,Greece,5,CZE,Czechia,0.6501,internet_usage_pct,fertility_rate,population_65_plus_pct,urban_population_pct
+GRD,Grenada,1,MUS,Mauritius,0.5235,fertility_rate,urban_population_pct,gdp_per_capita_ppp,life_expectancy
+GRD,Grenada,2,LCA,St. Lucia,0.6734,fertility_rate,internet_usage_pct,population_65_plus_pct,life_expectancy
+GRD,Grenada,3,KNA,St. Kitts and Nevis,0.7378,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+GRD,Grenada,4,ATG,Antigua and Barbuda,0.8084,population_65_plus_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+GRD,Grenada,5,VNM,Viet Nam,0.8096,life_expectancy,urban_population_pct,internet_usage_pct,population_65_plus_pct
+GTM,Guatemala,1,NIC,Nicaragua,0.5719,internet_usage_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+GTM,Guatemala,2,PHL,Philippines,0.61,urban_population_pct,population_65_plus_pct,life_expectancy,fertility_rate
+GTM,Guatemala,3,HND,Honduras,0.6133,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+GTM,Guatemala,4,IDN,Indonesia,0.6903,gdp_per_capita_ppp,fertility_rate,internet_usage_pct,population_65_plus_pct
+GTM,Guatemala,5,BWA,Botswana,0.8545,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+GUY,Guyana,1,KNA,St. Kitts and Nevis,1.3559,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,fertility_rate
+GUY,Guyana,2,LCA,St. Lucia,1.5701,urban_population_pct,life_expectancy,gdp_per_capita_ppp,fertility_rate
+GUY,Guyana,3,SYC,Seychelles,1.5814,internet_usage_pct,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+GUY,Guyana,4,EGY,"Egypt, Arab Rep.",1.6503,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+GUY,Guyana,5,ATG,Antigua and Barbuda,1.7285,urban_population_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+HKG,"Hong Kong SAR, China",1,SMR,San Marino,0.3102,gdp_per_capita_ppp,life_expectancy,fertility_rate,urban_population_pct
+HKG,"Hong Kong SAR, China",2,MLT,Malta,0.6093,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,life_expectancy
+HKG,"Hong Kong SAR, China",3,PRI,Puerto Rico (US),0.7818,fertility_rate,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+HKG,"Hong Kong SAR, China",4,NLD,Netherlands,0.8041,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+HKG,"Hong Kong SAR, China",5,SWE,Sweden,0.816,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+HND,Honduras,1,NIC,Nicaragua,0.4337,urban_population_pct,internet_usage_pct,life_expectancy,fertility_rate
+HND,Honduras,2,GTM,Guatemala,0.6133,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+HND,Honduras,3,PHL,Philippines,0.8642,urban_population_pct,population_65_plus_pct,fertility_rate,life_expectancy
+HND,Honduras,4,NPL,Nepal,0.8851,gdp_per_capita_ppp,population_65_plus_pct,internet_usage_pct,fertility_rate
+HND,Honduras,5,KHM,Cambodia,1.0086,fertility_rate,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+HRV,Croatia,1,POL,Poland,0.5288,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct,fertility_rate
+HRV,Croatia,2,PRT,Portugal,0.5775,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+HRV,Croatia,3,SVN,Slovenia,0.6024,fertility_rate,urban_population_pct,life_expectancy,internet_usage_pct
+HRV,Croatia,4,SRB,Serbia,0.6299,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+HRV,Croatia,5,BIH,Bosnia and Herzegovina,0.6622,fertility_rate,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+HTI,Haiti,1,LSO,Lesotho,1.1536,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+HTI,Haiti,2,GMB,"Gambia, The",1.1683,internet_usage_pct,life_expectancy,fertility_rate,urban_population_pct
+HTI,Haiti,3,NPL,Nepal,1.2514,internet_usage_pct,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+HTI,Haiti,4,GNB,Guinea-Bissau,1.2673,gdp_per_capita_ppp,life_expectancy,fertility_rate,internet_usage_pct
+HTI,Haiti,5,SEN,Senegal,1.2804,urban_population_pct,population_65_plus_pct,fertility_rate,life_expectancy
+HUN,Hungary,1,LVA,Latvia,0.2373,life_expectancy,internet_usage_pct,population_65_plus_pct,fertility_rate
+HUN,Hungary,2,LTU,Lithuania,0.3467,population_65_plus_pct,life_expectancy,fertility_rate,internet_usage_pct
+HUN,Hungary,3,EST,Estonia,0.4195,urban_population_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+HUN,Hungary,4,CZE,Czechia,0.5516,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+HUN,Hungary,5,BGR,Bulgaria,0.5879,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,fertility_rate
+IDN,Indonesia,1,PHL,Philippines,0.5407,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+IDN,Indonesia,2,FJI,Fiji,0.5701,urban_population_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+IDN,Indonesia,3,GTM,Guatemala,0.6903,gdp_per_capita_ppp,fertility_rate,internet_usage_pct,population_65_plus_pct
+IDN,Indonesia,4,ZAF,South Africa,0.7693,fertility_rate,population_65_plus_pct,life_expectancy,internet_usage_pct
+IDN,Indonesia,5,PRY,Paraguay,0.7783,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+IND,India,1,BLZ,Belize,0.6407,fertility_rate,life_expectancy,internet_usage_pct,population_65_plus_pct
+IND,India,2,KHM,Cambodia,0.6534,internet_usage_pct,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+IND,India,3,LAO,Lao PDR,0.7158,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,fertility_rate
+IND,India,4,BGD,Bangladesh,0.8006,population_65_plus_pct,urban_population_pct,internet_usage_pct,life_expectancy
+IND,India,5,VNM,Viet Nam,0.8312,fertility_rate,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp
+IRL,Ireland,1,CYP,Cyprus,0.8611,fertility_rate,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct
+IRL,Ireland,2,AUT,Austria,0.9781,fertility_rate,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp
+IRL,Ireland,3,NOR,Norway,1.0196,fertility_rate,life_expectancy,urban_population_pct,population_65_plus_pct
+IRL,Ireland,4,USA,United States,1.0857,internet_usage_pct,fertility_rate,urban_population_pct,life_expectancy
+IRL,Ireland,5,CHE,Switzerland,1.2102,internet_usage_pct,fertility_rate,urban_population_pct,population_65_plus_pct
+IRN,"Iran, Islamic Rep.",1,COL,Colombia,0.357,life_expectancy,fertility_rate,internet_usage_pct,population_65_plus_pct
+IRN,"Iran, Islamic Rep.",2,PER,Peru,0.4791,life_expectancy,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+IRN,"Iran, Islamic Rep.",3,MEX,Mexico,0.4869,population_65_plus_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+IRN,"Iran, Islamic Rep.",4,TUN,Tunisia,0.5838,fertility_rate,life_expectancy,internet_usage_pct,urban_population_pct
+IRN,"Iran, Islamic Rep.",5,CPV,Cabo Verde,0.6818,urban_population_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+IRQ,Iraq,1,MNG,Mongolia,0.7412,life_expectancy,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+IRQ,Iraq,2,BOL,Bolivia,0.8382,internet_usage_pct,urban_population_pct,fertility_rate,life_expectancy
+IRQ,Iraq,3,PRY,Paraguay,0.8763,internet_usage_pct,urban_population_pct,fertility_rate,population_65_plus_pct
+IRQ,Iraq,4,DZA,Algeria,0.9194,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+IRQ,Iraq,5,UZB,Uzbekistan,1.0175,life_expectancy,gdp_per_capita_ppp,urban_population_pct,population_65_plus_pct
+ISL,Iceland,1,AUS,Australia,0.4492,life_expectancy,fertility_rate,urban_population_pct,population_65_plus_pct
+ISL,Iceland,2,AND,Andorra,0.5244,gdp_per_capita_ppp,population_65_plus_pct,fertility_rate,urban_population_pct
+ISL,Iceland,3,LUX,Luxembourg,0.6055,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp,fertility_rate
+ISL,Iceland,4,NZL,New Zealand,0.6507,fertility_rate,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+ISL,Iceland,5,NOR,Norway,0.6839,internet_usage_pct,life_expectancy,urban_population_pct,population_65_plus_pct
+ISR,Israel,1,ISL,Iceland,1.2662,life_expectancy,urban_population_pct,fertility_rate,population_65_plus_pct
+ISR,Israel,2,NZL,New Zealand,1.3303,gdp_per_capita_ppp,life_expectancy,fertility_rate,population_65_plus_pct
+ISR,Israel,3,AUS,Australia,1.4093,life_expectancy,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct
+ISR,Israel,4,TUR,Turkiye,1.4425,internet_usage_pct,urban_population_pct,fertility_rate,life_expectancy
+ISR,Israel,5,ARG,Argentina,1.4613,population_65_plus_pct,urban_population_pct,fertility_rate,life_expectancy
+ITA,Italy,1,FIN,Finland,0.3905,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+ITA,Italy,2,PRT,Portugal,0.496,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+ITA,Italy,3,GRC,Greece,0.6199,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+ITA,Italy,4,AUT,Austria,0.6546,urban_population_pct,fertility_rate,population_65_plus_pct,life_expectancy
+ITA,Italy,5,FRA,France,0.6642,gdp_per_capita_ppp,internet_usage_pct,urban_population_pct,population_65_plus_pct
+JAM,Jamaica,1,AZE,Azerbaijan,0.7251,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,life_expectancy
+JAM,Jamaica,2,BTN,Bhutan,0.8861,internet_usage_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+JAM,Jamaica,3,MAR,Morocco,0.9133,population_65_plus_pct,internet_usage_pct,fertility_rate,life_expectancy
+JAM,Jamaica,4,SUR,Suriname,0.9571,population_65_plus_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+JAM,Jamaica,5,IDN,Indonesia,0.9759,urban_population_pct,life_expectancy,internet_usage_pct,fertility_rate
+JOR,Jordan,1,LBN,Lebanon,1.0377,life_expectancy,gdp_per_capita_ppp,population_65_plus_pct,internet_usage_pct
+JOR,Jordan,2,PER,Peru,1.1088,life_expectancy,gdp_per_capita_ppp,population_65_plus_pct,internet_usage_pct
+JOR,Jordan,3,LBY,Libya,1.1788,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+JOR,Jordan,4,DZA,Algeria,1.1892,fertility_rate,life_expectancy,urban_population_pct,internet_usage_pct
+JOR,Jordan,5,OMN,Oman,1.2959,internet_usage_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+JPN,Japan,1,PRI,Puerto Rico (US),0.7473,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+JPN,Japan,2,GRC,Greece,1.0385,internet_usage_pct,fertility_rate,population_65_plus_pct,urban_population_pct
+JPN,Japan,3,HKG,"Hong Kong SAR, China",1.117,life_expectancy,fertility_rate,population_65_plus_pct,internet_usage_pct
+JPN,Japan,4,SMR,San Marino,1.1444,fertility_rate,urban_population_pct,population_65_plus_pct,internet_usage_pct
+JPN,Japan,5,DEU,Germany,1.1692,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+KAZ,Kazakhstan,1,DOM,Dominican Republic,0.8787,life_expectancy,internet_usage_pct,fertility_rate,urban_population_pct
+KAZ,Kazakhstan,2,SUR,Suriname,0.9052,life_expectancy,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+KAZ,Kazakhstan,3,PRY,Paraguay,1.0681,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+KAZ,Kazakhstan,4,MNG,Mongolia,1.0879,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct
+KAZ,Kazakhstan,5,DZA,Algeria,1.2512,fertility_rate,life_expectancy,gdp_per_capita_ppp,internet_usage_pct
+KEN,Kenya,1,ZWE,Zimbabwe,0.6389,gdp_per_capita_ppp,population_65_plus_pct,fertility_rate,urban_population_pct
+KEN,Kenya,2,COM,Comoros,0.8522,urban_population_pct,internet_usage_pct,fertility_rate,life_expectancy
+KEN,Kenya,3,RWA,Rwanda,0.8566,urban_population_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+KEN,Kenya,4,FSM,"Micronesia, Fed. Sts.",0.9555,internet_usage_pct,fertility_rate,life_expectancy,urban_population_pct
+KEN,Kenya,5,GIN,Guinea,0.9833,population_65_plus_pct,internet_usage_pct,fertility_rate,life_expectancy
+KGZ,Kyrgyz Republic,1,BLZ,Belize,0.8795,population_65_plus_pct,life_expectancy,internet_usage_pct,fertility_rate
+KGZ,Kyrgyz Republic,2,KHM,Cambodia,1.0174,fertility_rate,population_65_plus_pct,internet_usage_pct,urban_population_pct
+KGZ,Kyrgyz Republic,3,EGY,"Egypt, Arab Rep.",1.0564,life_expectancy,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+KGZ,Kyrgyz Republic,4,IND,India,1.0649,life_expectancy,urban_population_pct,internet_usage_pct,fertility_rate
+KGZ,Kyrgyz Republic,5,VNM,Viet Nam,1.07,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+KHM,Cambodia,1,LAO,Lao PDR,0.392,urban_population_pct,internet_usage_pct,life_expectancy,population_65_plus_pct
+KHM,Cambodia,2,IND,India,0.6534,internet_usage_pct,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+KHM,Cambodia,3,EGY,"Egypt, Arab Rep.",0.8303,urban_population_pct,life_expectancy,gdp_per_capita_ppp,internet_usage_pct
+KHM,Cambodia,4,BLZ,Belize,0.9079,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+KHM,Cambodia,5,PHL,Philippines,0.9348,internet_usage_pct,population_65_plus_pct,urban_population_pct,fertility_rate
+KIR,Kiribati,1,GHA,Ghana,1.0175,population_65_plus_pct,life_expectancy,internet_usage_pct,gdp_per_capita_ppp
+KIR,Kiribati,2,PSE,West Bank and Gaza,1.19,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+KIR,Kiribati,3,BOL,Bolivia,1.3076,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,fertility_rate
+KIR,Kiribati,4,DJI,Djibouti,1.3223,life_expectancy,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+KIR,Kiribati,5,SEN,Senegal,1.4044,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,fertility_rate
+KNA,St. Kitts and Nevis,1,LCA,St. Lucia,0.5114,life_expectancy,fertility_rate,internet_usage_pct,population_65_plus_pct
+KNA,St. Kitts and Nevis,2,MUS,Mauritius,0.5388,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+KNA,St. Kitts and Nevis,3,GRD,Grenada,0.7378,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+KNA,St. Kitts and Nevis,4,ATG,Antigua and Barbuda,0.8602,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+KNA,St. Kitts and Nevis,5,VCT,St. Vincent and the Grenadines,0.8802,internet_usage_pct,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+KOR,"Korea, Rep.",1,ESP,Spain,0.3551,urban_population_pct,life_expectancy,fertility_rate,population_65_plus_pct
+KOR,"Korea, Rep.",2,CAN,Canada,0.4904,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+KOR,"Korea, Rep.",3,CHE,Switzerland,0.6537,population_65_plus_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+KOR,"Korea, Rep.",4,SWE,Sweden,0.6867,life_expectancy,population_65_plus_pct,fertility_rate,urban_population_pct
+KOR,"Korea, Rep.",5,BEL,Belgium,0.6902,internet_usage_pct,population_65_plus_pct,fertility_rate,urban_population_pct
+KWT,Kuwait,1,BHR,Bahrain,0.5341,urban_population_pct,internet_usage_pct,life_expectancy,fertility_rate
+KWT,Kuwait,2,QAT,Qatar,0.8107,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp,life_expectancy
+KWT,Kuwait,3,ARE,United Arab Emirates,0.8135,internet_usage_pct,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+KWT,Kuwait,4,SAU,Saudi Arabia,1.2368,internet_usage_pct,population_65_plus_pct,life_expectancy,urban_population_pct
+KWT,Kuwait,5,OMN,Oman,1.3962,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+LAO,Lao PDR,1,KHM,Cambodia,0.392,urban_population_pct,internet_usage_pct,life_expectancy,population_65_plus_pct
+LAO,Lao PDR,2,IND,India,0.7158,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,fertility_rate
+LAO,Lao PDR,3,EGY,"Egypt, Arab Rep.",0.829,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct
+LAO,Lao PDR,4,PHL,Philippines,0.8538,internet_usage_pct,life_expectancy,urban_population_pct,fertility_rate
+LAO,Lao PDR,5,NAM,Namibia,0.8751,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+LBN,Lebanon,1,PER,Peru,0.5324,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+LBN,Lebanon,2,BRA,Brazil,0.8508,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+LBN,Lebanon,3,COL,Colombia,0.9265,life_expectancy,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+LBN,Lebanon,4,IRN,"Iran, Islamic Rep.",0.9352,life_expectancy,internet_usage_pct,urban_population_pct,fertility_rate
+LBN,Lebanon,5,MEX,Mexico,0.9974,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+LBR,Liberia,1,GNB,Guinea-Bissau,0.686,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+LBR,Liberia,2,SLE,Sierra Leone,0.7847,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,urban_population_pct
+LBR,Liberia,3,TGO,Togo,0.9029,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,urban_population_pct
+LBR,Liberia,4,BEN,Benin,0.9491,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+LBR,Liberia,5,GMB,"Gambia, The",1.1007,population_65_plus_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+LBY,Libya,1,MNG,Mongolia,0.8412,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+LBY,Libya,2,BOL,Bolivia,0.8757,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+LBY,Libya,3,PRY,Paraguay,0.9425,internet_usage_pct,fertility_rate,urban_population_pct,life_expectancy
+LBY,Libya,4,MEX,Mexico,0.966,internet_usage_pct,fertility_rate,life_expectancy,population_65_plus_pct
+LBY,Libya,5,DZA,Algeria,1.0367,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,urban_population_pct
+LCA,St. Lucia,1,KNA,St. Kitts and Nevis,0.5114,life_expectancy,fertility_rate,internet_usage_pct,population_65_plus_pct
+LCA,St. Lucia,2,GRD,Grenada,0.6734,fertility_rate,internet_usage_pct,population_65_plus_pct,life_expectancy
+LCA,St. Lucia,3,MUS,Mauritius,0.7825,fertility_rate,life_expectancy,population_65_plus_pct,urban_population_pct
+LCA,St. Lucia,4,ATG,Antigua and Barbuda,0.8472,fertility_rate,internet_usage_pct,life_expectancy,population_65_plus_pct
+LCA,St. Lucia,5,VNM,Viet Nam,1.0066,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+LKA,Sri Lanka,1,ATG,Antigua and Barbuda,1.0322,life_expectancy,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+LKA,Sri Lanka,2,GRD,Grenada,1.1125,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+LKA,Sri Lanka,3,BGD,Bangladesh,1.1623,internet_usage_pct,fertility_rate,population_65_plus_pct,urban_population_pct
+LKA,Sri Lanka,4,LCA,St. Lucia,1.1999,population_65_plus_pct,urban_population_pct,life_expectancy,internet_usage_pct
+LKA,Sri Lanka,5,IND,India,1.4269,fertility_rate,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+LSO,Lesotho,1,HTI,Haiti,1.1536,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+LSO,Lesotho,2,ZWE,Zimbabwe,1.3394,population_65_plus_pct,urban_population_pct,fertility_rate,life_expectancy
+LSO,Lesotho,3,KEN,Kenya,1.4617,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+LSO,Lesotho,4,TGO,Togo,1.4871,urban_population_pct,population_65_plus_pct,fertility_rate,life_expectancy
+LSO,Lesotho,5,SLE,Sierra Leone,1.4916,urban_population_pct,population_65_plus_pct,internet_usage_pct,fertility_rate
+LTU,Lithuania,1,LVA,Latvia,0.3415,urban_population_pct,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp
+LTU,Lithuania,2,HUN,Hungary,0.3467,population_65_plus_pct,life_expectancy,fertility_rate,internet_usage_pct
+LTU,Lithuania,3,EST,Estonia,0.3702,fertility_rate,urban_population_pct,life_expectancy,population_65_plus_pct
+LTU,Lithuania,4,POL,Poland,0.4492,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+LTU,Lithuania,5,CZE,Czechia,0.4815,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,fertility_rate
+LUX,Luxembourg,1,SGP,Singapore,0.4397,life_expectancy,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+LUX,Luxembourg,2,ISL,Iceland,0.6055,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp,fertility_rate
+LUX,Luxembourg,3,AND,Andorra,0.708,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+LUX,Luxembourg,4,MAC,"Macao SAR, China",0.7165,life_expectancy,population_65_plus_pct,fertility_rate,internet_usage_pct
+LUX,Luxembourg,5,NOR,Norway,0.7887,life_expectancy,internet_usage_pct,urban_population_pct,population_65_plus_pct
+LVA,Latvia,1,HUN,Hungary,0.2373,life_expectancy,internet_usage_pct,population_65_plus_pct,fertility_rate
+LVA,Latvia,2,LTU,Lithuania,0.3415,urban_population_pct,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp
+LVA,Latvia,3,EST,Estonia,0.4299,internet_usage_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+LVA,Latvia,4,SRB,Serbia,0.5579,life_expectancy,population_65_plus_pct,fertility_rate,urban_population_pct
+LVA,Latvia,5,POL,Poland,0.5679,fertility_rate,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+MAC,"Macao SAR, China",1,SGP,Singapore,0.4134,urban_population_pct,life_expectancy,fertility_rate,internet_usage_pct
+MAC,"Macao SAR, China",2,LUX,Luxembourg,0.7165,life_expectancy,population_65_plus_pct,fertility_rate,internet_usage_pct
+MAC,"Macao SAR, China",3,AND,Andorra,0.8581,life_expectancy,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+MAC,"Macao SAR, China",4,ISL,Iceland,1.0109,life_expectancy,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+MAC,"Macao SAR, China",5,MLT,Malta,1.0271,life_expectancy,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp
+MAR,Morocco,1,SUR,Suriname,0.692,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+MAR,Morocco,2,ECU,Ecuador,0.7968,urban_population_pct,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp
+MAR,Morocco,3,PRY,Paraguay,0.8102,fertility_rate,life_expectancy,gdp_per_capita_ppp,internet_usage_pct
+MAR,Morocco,4,TUN,Tunisia,0.8451,life_expectancy,population_65_plus_pct,internet_usage_pct,urban_population_pct
+MAR,Morocco,5,JAM,Jamaica,0.9133,population_65_plus_pct,internet_usage_pct,fertility_rate,life_expectancy
+MDA,Moldova,1,VCT,St. Vincent and the Grenadines,0.673,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+MDA,Moldova,2,MUS,Mauritius,0.7675,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,population_65_plus_pct
+MDA,Moldova,3,GRD,Grenada,0.9413,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct,life_expectancy
+MDA,Moldova,4,TTO,Trinidad and Tobago,0.98,fertility_rate,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp
+MDA,Moldova,5,GEO,Georgia,1.0252,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+MDG,Madagascar,1,MOZ,Mozambique,0.686,life_expectancy,internet_usage_pct,fertility_rate,urban_population_pct
+MDG,Madagascar,2,BFA,Burkina Faso,0.7054,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+MDG,Madagascar,3,AFG,Afghanistan,0.861,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+MDG,Madagascar,4,ETH,Ethiopia,0.8611,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+MDG,Madagascar,5,GNB,Guinea-Bissau,0.9064,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+MDV,Maldives,1,SYC,Seychelles,0.9355,internet_usage_pct,urban_population_pct,life_expectancy,population_65_plus_pct
+MDV,Maldives,2,BTN,Bhutan,1.2135,urban_population_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+MDV,Maldives,3,VNM,Viet Nam,1.2155,internet_usage_pct,urban_population_pct,life_expectancy,population_65_plus_pct
+MDV,Maldives,4,BLZ,Belize,1.2661,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+MDV,Maldives,5,ECU,Ecuador,1.3384,fertility_rate,internet_usage_pct,urban_population_pct,life_expectancy
+MEX,Mexico,1,IRN,"Iran, Islamic Rep.",0.4869,population_65_plus_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+MEX,Mexico,2,COL,Colombia,0.5219,urban_population_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+MEX,Mexico,3,PER,Peru,0.5497,internet_usage_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+MEX,Mexico,4,DOM,Dominican Republic,0.5824,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+MEX,Mexico,5,BRA,Brazil,0.6136,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+MHL,Marshall Islands,1,DJI,Djibouti,0.3706,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+MHL,Marshall Islands,2,BOL,Bolivia,0.8176,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+MHL,Marshall Islands,3,STP,Sao Tome and Principe,0.9458,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+MHL,Marshall Islands,4,BWA,Botswana,1.0132,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+MHL,Marshall Islands,5,GHA,Ghana,1.0648,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,fertility_rate
+MKD,North Macedonia,1,THA,Thailand,0.3934,urban_population_pct,life_expectancy,population_65_plus_pct,fertility_rate
+MKD,North Macedonia,2,MNE,Montenegro,0.473,population_65_plus_pct,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+MKD,North Macedonia,3,ALB,Albania,0.5735,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+MKD,North Macedonia,4,CHN,China,0.6424,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,fertility_rate
+MKD,North Macedonia,5,GEO,Georgia,0.67,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct,population_65_plus_pct
+MLI,Mali,1,COD,"Congo, Dem. Rep.",1.135,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+MLI,Mali,2,NER,Niger,1.1962,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+MLI,Mali,3,BFA,Burkina Faso,1.2089,population_65_plus_pct,life_expectancy,fertility_rate,internet_usage_pct
+MLI,Mali,4,GIN,Guinea,1.2148,life_expectancy,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+MLI,Mali,5,MOZ,Mozambique,1.2282,population_65_plus_pct,urban_population_pct,fertility_rate,internet_usage_pct
+MLT,Malta,1,NLD,Netherlands,0.4255,urban_population_pct,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+MLT,Malta,2,SWE,Sweden,0.4908,gdp_per_capita_ppp,population_65_plus_pct,fertility_rate,urban_population_pct
+MLT,Malta,3,BEL,Belgium,0.5253,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,fertility_rate
+MLT,Malta,4,DNK,Denmark,0.5707,population_65_plus_pct,life_expectancy,fertility_rate,urban_population_pct
+MLT,Malta,5,SMR,San Marino,0.5751,urban_population_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+MNE,Montenegro,1,MKD,North Macedonia,0.473,population_65_plus_pct,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+MNE,Montenegro,2,ALB,Albania,0.6049,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+MNE,Montenegro,3,GEO,Georgia,0.6409,fertility_rate,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+MNE,Montenegro,4,THA,Thailand,0.6761,internet_usage_pct,urban_population_pct,fertility_rate,population_65_plus_pct
+MNE,Montenegro,5,HUN,Hungary,0.6795,life_expectancy,internet_usage_pct,population_65_plus_pct,fertility_rate
+MNG,Mongolia,1,PRY,Paraguay,0.3263,gdp_per_capita_ppp,urban_population_pct,life_expectancy,population_65_plus_pct
+MNG,Mongolia,2,SUR,Suriname,0.5487,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+MNG,Mongolia,3,DOM,Dominican Republic,0.6112,urban_population_pct,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp
+MNG,Mongolia,4,BOL,Bolivia,0.6939,fertility_rate,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+MNG,Mongolia,5,DZA,Algeria,0.7355,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+MOZ,Mozambique,1,MDG,Madagascar,0.686,life_expectancy,internet_usage_pct,fertility_rate,urban_population_pct
+MOZ,Mozambique,2,AFG,Afghanistan,0.6936,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+MOZ,Mozambique,3,BDI,Burundi,0.766,life_expectancy,population_65_plus_pct,urban_population_pct,internet_usage_pct
+MOZ,Mozambique,4,BFA,Burkina Faso,0.9211,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+MOZ,Mozambique,5,TZA,Tanzania,1.0618,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+MRT,Mauritania,1,COG,"Congo, Rep.",0.583,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+MRT,Mauritania,2,CMR,Cameroon,0.8114,internet_usage_pct,population_65_plus_pct,life_expectancy,fertility_rate
+MRT,Mauritania,3,AGO,Angola,0.8544,population_65_plus_pct,internet_usage_pct,life_expectancy,urban_population_pct
+MRT,Mauritania,4,GMB,"Gambia, The",0.9613,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+MRT,Mauritania,5,SEN,Senegal,0.9901,life_expectancy,population_65_plus_pct,fertility_rate,internet_usage_pct
+MUS,Mauritius,1,GRD,Grenada,0.5235,fertility_rate,urban_population_pct,gdp_per_capita_ppp,life_expectancy
+MUS,Mauritius,2,KNA,St. Kitts and Nevis,0.5388,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct
+MUS,Mauritius,3,VCT,St. Vincent and the Grenadines,0.7359,internet_usage_pct,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+MUS,Mauritius,4,MDA,Moldova,0.7675,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,population_65_plus_pct
+MUS,Mauritius,5,LCA,St. Lucia,0.7825,fertility_rate,life_expectancy,population_65_plus_pct,urban_population_pct
+MWI,Malawi,1,ETH,Ethiopia,0.7022,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+MWI,Malawi,2,MDG,Madagascar,0.9199,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+MWI,Malawi,3,SLB,Solomon Islands,0.9411,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+MWI,Malawi,4,PNG,Papua New Guinea,1.001,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,fertility_rate
+MWI,Malawi,5,UGA,Uganda,1.0535,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+MYS,Malaysia,1,BHS,"Bahamas, The",0.7051,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct,life_expectancy
+MYS,Malaysia,2,TUR,Turkiye,0.7444,fertility_rate,gdp_per_capita_ppp,urban_population_pct,population_65_plus_pct
+MYS,Malaysia,3,BRN,Brunei Darussalam,0.7531,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+MYS,Malaysia,4,MEX,Mexico,0.8194,population_65_plus_pct,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp
+MYS,Malaysia,5,DOM,Dominican Republic,0.84,population_65_plus_pct,urban_population_pct,fertility_rate,life_expectancy
+NAM,Namibia,1,GHA,Ghana,0.6168,population_65_plus_pct,fertility_rate,urban_population_pct,internet_usage_pct
+NAM,Namibia,2,PAK,Pakistan,0.8471,life_expectancy,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+NAM,Namibia,3,LAO,Lao PDR,0.8751,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+NAM,Namibia,4,SEN,Senegal,0.8902,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+NAM,Namibia,5,KHM,Cambodia,0.967,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+NER,Niger,1,TCD,Chad,1.0033,population_65_plus_pct,fertility_rate,life_expectancy,urban_population_pct
+NER,Niger,2,BDI,Burundi,1.1846,population_65_plus_pct,internet_usage_pct,fertility_rate,gdp_per_capita_ppp
+NER,Niger,3,MLI,Mali,1.1962,population_65_plus_pct,life_expectancy,internet_usage_pct,urban_population_pct
+NER,Niger,4,AFG,Afghanistan,1.2214,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,life_expectancy
+NER,Niger,5,COD,"Congo, Dem. Rep.",1.2484,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+NGA,Nigeria,1,CIV,Cote d'Ivoire,1.1382,internet_usage_pct,population_65_plus_pct,life_expectancy,urban_population_pct
+NGA,Nigeria,2,BEN,Benin,1.2011,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+NGA,Nigeria,3,CMR,Cameroon,1.436,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+NGA,Nigeria,4,AGO,Angola,1.5569,internet_usage_pct,population_65_plus_pct,life_expectancy,fertility_rate
+NGA,Nigeria,5,GIN,Guinea,1.6046,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+NIC,Nicaragua,1,HND,Honduras,0.4337,urban_population_pct,internet_usage_pct,life_expectancy,fertility_rate
+NIC,Nicaragua,2,GTM,Guatemala,0.5719,internet_usage_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+NIC,Nicaragua,3,PHL,Philippines,0.8552,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+NIC,Nicaragua,4,IDN,Indonesia,0.9324,urban_population_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+NIC,Nicaragua,5,NPL,Nepal,1.0256,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+NLD,Netherlands,1,DNK,Denmark,0.3519,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+NLD,Netherlands,2,BEL,Belgium,0.4088,fertility_rate,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+NLD,Netherlands,3,MLT,Malta,0.4255,urban_population_pct,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp
+NLD,Netherlands,4,SWE,Sweden,0.4611,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+NLD,Netherlands,5,AUS,Australia,0.584,internet_usage_pct,fertility_rate,population_65_plus_pct,urban_population_pct
+NOR,Norway,1,CHE,Switzerland,0.3096,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+NOR,Norway,2,AUS,Australia,0.4134,life_expectancy,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+NOR,Norway,3,DNK,Denmark,0.4374,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+NOR,Norway,4,BEL,Belgium,0.4643,fertility_rate,life_expectancy,gdp_per_capita_ppp,population_65_plus_pct
+NOR,Norway,5,SWE,Sweden,0.5075,fertility_rate,life_expectancy,gdp_per_capita_ppp,urban_population_pct
+NPL,Nepal,1,HND,Honduras,0.8851,gdp_per_capita_ppp,population_65_plus_pct,internet_usage_pct,fertility_rate
+NPL,Nepal,2,NIC,Nicaragua,1.0256,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+NPL,Nepal,3,GTM,Guatemala,1.1701,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+NPL,Nepal,4,PHL,Philippines,1.1738,fertility_rate,life_expectancy,internet_usage_pct,gdp_per_capita_ppp
+NPL,Nepal,5,DJI,Djibouti,1.2025,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+NRU,Naoero,1,GAB,Gabon,1.2025,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+NRU,Naoero,2,PSE,West Bank and Gaza,1.4556,fertility_rate,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+NRU,Naoero,3,MHL,Marshall Islands,1.4761,population_65_plus_pct,fertility_rate,urban_population_pct,internet_usage_pct
+NRU,Naoero,4,LBY,Libya,1.6064,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+NRU,Naoero,5,GNQ,Equatorial Guinea,1.689,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+NZL,New Zealand,1,GBR,United Kingdom,0.3284,fertility_rate,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp
+NZL,New Zealand,2,AUS,Australia,0.3306,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+NZL,New Zealand,3,CAN,Canada,0.4703,life_expectancy,internet_usage_pct,population_65_plus_pct,fertility_rate
+NZL,New Zealand,4,BEL,Belgium,0.5593,life_expectancy,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp
+NZL,New Zealand,5,USA,United States,0.6222,fertility_rate,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+OMN,Oman,1,SAU,Saudi Arabia,0.6199,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+OMN,Oman,2,MYS,Malaysia,1.1844,gdp_per_capita_ppp,urban_population_pct,fertility_rate,population_65_plus_pct
+OMN,Oman,3,BHR,Bahrain,1.2297,life_expectancy,population_65_plus_pct,urban_population_pct,fertility_rate
+OMN,Oman,4,DOM,Dominican Republic,1.2858,internet_usage_pct,fertility_rate,life_expectancy,population_65_plus_pct
+OMN,Oman,5,DZA,Algeria,1.293,urban_population_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+PAK,Pakistan,1,SEN,Senegal,0.8125,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+PAK,Pakistan,2,NAM,Namibia,0.8471,life_expectancy,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+PAK,Pakistan,3,ZWE,Zimbabwe,0.9222,gdp_per_capita_ppp,urban_population_pct,life_expectancy,internet_usage_pct
+PAK,Pakistan,4,TJK,Tajikistan,0.9444,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+PAK,Pakistan,5,KHM,Cambodia,1.0831,urban_population_pct,gdp_per_capita_ppp,fertility_rate,internet_usage_pct
+PAN,Panama,1,ECU,Ecuador,0.958,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+PAN,Panama,2,ARM,Armenia,0.9722,urban_population_pct,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp
+PAN,Panama,3,COL,Colombia,0.9773,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+PAN,Panama,4,TUN,Tunisia,1.0701,population_65_plus_pct,internet_usage_pct,gdp_per_capita_ppp,life_expectancy
+PAN,Panama,5,IRN,"Iran, Islamic Rep.",1.1013,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,urban_population_pct
+PER,Peru,1,COL,Colombia,0.466,life_expectancy,population_65_plus_pct,urban_population_pct,fertility_rate
+PER,Peru,2,IRN,"Iran, Islamic Rep.",0.4791,life_expectancy,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+PER,Peru,3,LBN,Lebanon,0.5324,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+PER,Peru,4,BRA,Brazil,0.5379,internet_usage_pct,urban_population_pct,fertility_rate,population_65_plus_pct
+PER,Peru,5,MEX,Mexico,0.5497,internet_usage_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+PHL,Philippines,1,IDN,Indonesia,0.5407,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+PHL,Philippines,2,GTM,Guatemala,0.61,urban_population_pct,population_65_plus_pct,life_expectancy,fertility_rate
+PHL,Philippines,3,FJI,Fiji,0.6316,population_65_plus_pct,urban_population_pct,life_expectancy,fertility_rate
+PHL,Philippines,4,ZAF,South Africa,0.8488,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+PHL,Philippines,5,LAO,Lao PDR,0.8538,internet_usage_pct,life_expectancy,urban_population_pct,fertility_rate
+PLW,Palau,1,DMA,Dominica,0.5275,gdp_per_capita_ppp,internet_usage_pct,fertility_rate,life_expectancy
+PLW,Palau,2,MEX,Mexico,0.942,fertility_rate,internet_usage_pct,life_expectancy,population_65_plus_pct
+PLW,Palau,3,DOM,Dominican Republic,0.9634,gdp_per_capita_ppp,fertility_rate,life_expectancy,population_65_plus_pct
+PLW,Palau,4,BRA,Brazil,1.0346,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,urban_population_pct
+PLW,Palau,5,BHS,"Bahamas, The",1.05,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+PNG,Papua New Guinea,1,ETH,Ethiopia,0.8733,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+PNG,Papua New Guinea,2,MWI,Malawi,1.001,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp,fertility_rate
+PNG,Papua New Guinea,3,FSM,"Micronesia, Fed. Sts.",1.0089,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,population_65_plus_pct
+PNG,Papua New Guinea,4,RWA,Rwanda,1.0338,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+PNG,Papua New Guinea,5,KEN,Kenya,1.0865,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+POL,Poland,1,LTU,Lithuania,0.4492,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+POL,Poland,2,SVK,Slovak Republic,0.4824,life_expectancy,internet_usage_pct,urban_population_pct,fertility_rate
+POL,Poland,3,ROU,Romania,0.5186,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,life_expectancy
+POL,Poland,4,HRV,Croatia,0.5288,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct,fertility_rate
+POL,Poland,5,EST,Estonia,0.5457,fertility_rate,gdp_per_capita_ppp,urban_population_pct,internet_usage_pct
+PRI,Puerto Rico (US),1,JPN,Japan,0.7473,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+PRI,Puerto Rico (US),2,GRC,Greece,0.7619,life_expectancy,internet_usage_pct,urban_population_pct,fertility_rate
+PRI,Puerto Rico (US),3,MLT,Malta,0.7745,urban_population_pct,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp
+PRI,Puerto Rico (US),4,HKG,"Hong Kong SAR, China",0.7818,fertility_rate,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+PRI,Puerto Rico (US),5,DEU,Germany,0.822,life_expectancy,population_65_plus_pct,urban_population_pct,fertility_rate
+PRT,Portugal,1,SVN,Slovenia,0.479,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+PRT,Portugal,2,ITA,Italy,0.496,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+PRT,Portugal,3,HRV,Croatia,0.5775,gdp_per_capita_ppp,fertility_rate,life_expectancy,internet_usage_pct
+PRT,Portugal,4,FIN,Finland,0.6809,life_expectancy,population_65_plus_pct,urban_population_pct,internet_usage_pct
+PRT,Portugal,5,AUT,Austria,0.7421,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+PRY,Paraguay,1,MNG,Mongolia,0.3263,gdp_per_capita_ppp,urban_population_pct,life_expectancy,population_65_plus_pct
+PRY,Paraguay,2,SUR,Suriname,0.4166,life_expectancy,gdp_per_capita_ppp,internet_usage_pct,urban_population_pct
+PRY,Paraguay,3,DZA,Algeria,0.5271,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,fertility_rate
+PRY,Paraguay,4,DOM,Dominican Republic,0.5582,life_expectancy,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp
+PRY,Paraguay,5,MEX,Mexico,0.7219,internet_usage_pct,life_expectancy,urban_population_pct,fertility_rate
+PSE,West Bank and Gaza,1,MHL,Marshall Islands,1.1391,population_65_plus_pct,life_expectancy,internet_usage_pct,gdp_per_capita_ppp
+PSE,West Bank and Gaza,2,KIR,Kiribati,1.19,population_65_plus_pct,fertility_rate,urban_population_pct,life_expectancy
+PSE,West Bank and Gaza,3,BOL,Bolivia,1.3028,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+PSE,West Bank and Gaza,4,IRQ,Iraq,1.3084,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+PSE,West Bank and Gaza,5,LBY,Libya,1.3465,urban_population_pct,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate
+QAT,Qatar,1,BHR,Bahrain,0.6347,urban_population_pct,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct
+QAT,Qatar,2,KWT,Kuwait,0.8107,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp,life_expectancy
+QAT,Qatar,3,ARE,United Arab Emirates,0.8573,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+QAT,Qatar,4,SAU,Saudi Arabia,1.0982,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+QAT,Qatar,5,OMN,Oman,1.5201,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+ROU,Romania,1,SVK,Slovak Republic,0.3213,gdp_per_capita_ppp,urban_population_pct,life_expectancy,population_65_plus_pct
+ROU,Romania,2,POL,Poland,0.5186,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,life_expectancy
+ROU,Romania,3,HRV,Croatia,0.7135,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct,life_expectancy
+ROU,Romania,4,MKD,North Macedonia,0.751,fertility_rate,life_expectancy,gdp_per_capita_ppp,urban_population_pct
+ROU,Romania,5,SRB,Serbia,0.762,life_expectancy,internet_usage_pct,urban_population_pct,population_65_plus_pct
+RUS,Russian Federation,1,BLR,Belarus,0.4255,internet_usage_pct,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+RUS,Russian Federation,2,HUN,Hungary,0.6825,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct,life_expectancy
+RUS,Russian Federation,3,LTU,Lithuania,0.7967,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,population_65_plus_pct
+RUS,Russian Federation,4,LVA,Latvia,0.8116,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+RUS,Russian Federation,5,BHS,"Bahamas, The",0.8668,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+RWA,Rwanda,1,COM,Comoros,0.2529,gdp_per_capita_ppp,internet_usage_pct,fertility_rate,urban_population_pct
+RWA,Rwanda,2,SLB,Solomon Islands,0.534,urban_population_pct,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+RWA,Rwanda,3,ETH,Ethiopia,0.57,life_expectancy,population_65_plus_pct,internet_usage_pct,urban_population_pct
+RWA,Rwanda,4,TZA,Tanzania,0.8012,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+RWA,Rwanda,5,KEN,Kenya,0.8566,urban_population_pct,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+SAU,Saudi Arabia,1,OMN,Oman,0.6199,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+SAU,Saudi Arabia,2,BHR,Bahrain,0.8945,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+SAU,Saudi Arabia,3,BRN,Brunei Darussalam,1.0188,internet_usage_pct,gdp_per_capita_ppp,population_65_plus_pct,life_expectancy
+SAU,Saudi Arabia,4,ARE,United Arab Emirates,1.0749,internet_usage_pct,urban_population_pct,fertility_rate,life_expectancy
+SAU,Saudi Arabia,5,QAT,Qatar,1.0982,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+SEN,Senegal,1,STP,Sao Tome and Principe,0.6616,internet_usage_pct,population_65_plus_pct,urban_population_pct,fertility_rate
+SEN,Senegal,2,GMB,"Gambia, The",0.8062,population_65_plus_pct,fertility_rate,internet_usage_pct,urban_population_pct
+SEN,Senegal,3,PAK,Pakistan,0.8125,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+SEN,Senegal,4,COG,"Congo, Rep.",0.8505,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+SEN,Senegal,5,GHA,Ghana,0.8542,population_65_plus_pct,urban_population_pct,internet_usage_pct,life_expectancy
+SGP,Singapore,1,MAC,"Macao SAR, China",0.4134,urban_population_pct,life_expectancy,fertility_rate,internet_usage_pct
+SGP,Singapore,2,LUX,Luxembourg,0.4397,life_expectancy,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+SGP,Singapore,3,ISL,Iceland,0.8531,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,fertility_rate
+SGP,Singapore,4,AND,Andorra,0.8788,internet_usage_pct,fertility_rate,gdp_per_capita_ppp,urban_population_pct
+SGP,Singapore,5,AUS,Australia,1.1338,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+SLB,Solomon Islands,1,RWA,Rwanda,0.534,urban_population_pct,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+SLB,Solomon Islands,2,COM,Comoros,0.708,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+SLB,Solomon Islands,3,ETH,Ethiopia,0.7301,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+SLB,Solomon Islands,4,MWI,Malawi,0.9411,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+SLB,Solomon Islands,5,UGA,Uganda,1.05,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct,fertility_rate
+SLE,Sierra Leone,1,GNB,Guinea-Bissau,0.3881,population_65_plus_pct,urban_population_pct,life_expectancy,internet_usage_pct
+SLE,Sierra Leone,2,GIN,Guinea,0.6541,population_65_plus_pct,life_expectancy,fertility_rate,urban_population_pct
+SLE,Sierra Leone,3,TGO,Togo,0.6921,population_65_plus_pct,urban_population_pct,internet_usage_pct,fertility_rate
+SLE,Sierra Leone,4,LBR,Liberia,0.7847,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,urban_population_pct
+SLE,Sierra Leone,5,ZMB,Zambia,0.7941,urban_population_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+SLV,El Salvador,1,CPV,Cabo Verde,0.7084,urban_population_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+SLV,El Salvador,2,TUN,Tunisia,0.8016,fertility_rate,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+SLV,El Salvador,3,IDN,Indonesia,0.8722,population_65_plus_pct,life_expectancy,urban_population_pct,fertility_rate
+SLV,El Salvador,4,PRY,Paraguay,0.9482,population_65_plus_pct,life_expectancy,internet_usage_pct,fertility_rate
+SLV,El Salvador,5,MEX,Mexico,0.9724,population_65_plus_pct,fertility_rate,internet_usage_pct,gdp_per_capita_ppp
+SMR,San Marino,1,HKG,"Hong Kong SAR, China",0.3102,gdp_per_capita_ppp,life_expectancy,fertility_rate,urban_population_pct
+SMR,San Marino,2,MLT,Malta,0.5751,urban_population_pct,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct
+SMR,San Marino,3,SWE,Sweden,0.5917,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,population_65_plus_pct
+SMR,San Marino,4,NLD,Netherlands,0.667,internet_usage_pct,urban_population_pct,life_expectancy,population_65_plus_pct
+SMR,San Marino,5,CHE,Switzerland,0.7191,internet_usage_pct,fertility_rate,urban_population_pct,population_65_plus_pct
+SOM,"Somalia, Fed. Rep.",1,COD,"Congo, Dem. Rep.",0.7289,fertility_rate,population_65_plus_pct,urban_population_pct,life_expectancy
+SOM,"Somalia, Fed. Rep.",2,CAF,Central African Republic,0.7962,fertility_rate,population_65_plus_pct,internet_usage_pct,urban_population_pct
+SOM,"Somalia, Fed. Rep.",3,MLI,Mali,1.3743,population_65_plus_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+SOM,"Somalia, Fed. Rep.",4,MOZ,Mozambique,1.542,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+SOM,"Somalia, Fed. Rep.",5,TCD,Chad,1.5797,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+SRB,Serbia,1,LVA,Latvia,0.5579,life_expectancy,population_65_plus_pct,fertility_rate,urban_population_pct
+SRB,Serbia,2,BIH,Bosnia and Herzegovina,0.6057,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+SRB,Serbia,3,HRV,Croatia,0.6299,population_65_plus_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+SRB,Serbia,4,BGR,Bulgaria,0.6302,life_expectancy,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+SRB,Serbia,5,HUN,Hungary,0.6489,life_expectancy,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+STP,Sao Tome and Principe,1,SEN,Senegal,0.6616,internet_usage_pct,population_65_plus_pct,urban_population_pct,fertility_rate
+STP,Sao Tome and Principe,2,GMB,"Gambia, The",0.8774,population_65_plus_pct,urban_population_pct,life_expectancy,gdp_per_capita_ppp
+STP,Sao Tome and Principe,3,COG,"Congo, Rep.",0.8809,gdp_per_capita_ppp,population_65_plus_pct,life_expectancy,internet_usage_pct
+STP,Sao Tome and Principe,4,MHL,Marshall Islands,0.9458,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+STP,Sao Tome and Principe,5,GHA,Ghana,0.9735,population_65_plus_pct,fertility_rate,life_expectancy,internet_usage_pct
+SUR,Suriname,1,DOM,Dominican Republic,0.3985,population_65_plus_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+SUR,Suriname,2,PRY,Paraguay,0.4166,life_expectancy,gdp_per_capita_ppp,internet_usage_pct,urban_population_pct
+SUR,Suriname,3,MNG,Mongolia,0.5487,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+SUR,Suriname,4,MAR,Morocco,0.692,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy
+SUR,Suriname,5,MEX,Mexico,0.7698,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+SVK,Slovak Republic,1,ROU,Romania,0.3213,gdp_per_capita_ppp,urban_population_pct,life_expectancy,population_65_plus_pct
+SVK,Slovak Republic,2,POL,Poland,0.4824,life_expectancy,internet_usage_pct,urban_population_pct,fertility_rate
+SVK,Slovak Republic,3,ALB,Albania,0.6419,fertility_rate,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+SVK,Slovak Republic,4,MNE,Montenegro,0.7068,internet_usage_pct,life_expectancy,urban_population_pct,gdp_per_capita_ppp
+SVK,Slovak Republic,5,HRV,Croatia,0.7117,fertility_rate,gdp_per_capita_ppp,population_65_plus_pct,internet_usage_pct
+SVN,Slovenia,1,PRT,Portugal,0.479,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+SVN,Slovenia,2,HRV,Croatia,0.6024,fertility_rate,urban_population_pct,life_expectancy,internet_usage_pct
+SVN,Slovenia,3,POL,Poland,0.6891,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,fertility_rate
+SVN,Slovenia,4,AUT,Austria,0.7097,life_expectancy,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+SVN,Slovenia,5,SVK,Slovak Republic,0.729,internet_usage_pct,fertility_rate,life_expectancy,population_65_plus_pct
+SWE,Sweden,1,BEL,Belgium,0.2551,internet_usage_pct,population_65_plus_pct,life_expectancy,urban_population_pct
+SWE,Sweden,2,DNK,Denmark,0.3245,urban_population_pct,population_65_plus_pct,life_expectancy,internet_usage_pct
+SWE,Sweden,3,CHE,Switzerland,0.3702,life_expectancy,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct
+SWE,Sweden,4,AUS,Australia,0.4184,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,life_expectancy
+SWE,Sweden,5,CAN,Canada,0.4391,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,life_expectancy
+SWZ,Eswatini,1,LAO,Lao PDR,0.9857,population_65_plus_pct,internet_usage_pct,life_expectancy,urban_population_pct
+SWZ,Eswatini,2,PAK,Pakistan,1.1898,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+SWZ,Eswatini,3,KHM,Cambodia,1.2307,fertility_rate,internet_usage_pct,life_expectancy,urban_population_pct
+SWZ,Eswatini,4,NAM,Namibia,1.2666,gdp_per_capita_ppp,internet_usage_pct,urban_population_pct,life_expectancy
+SWZ,Eswatini,5,TJK,Tajikistan,1.3113,urban_population_pct,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+SYC,Seychelles,1,VNM,Viet Nam,0.7247,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+SYC,Seychelles,2,AZE,Azerbaijan,0.7948,population_65_plus_pct,internet_usage_pct,urban_population_pct,fertility_rate
+SYC,Seychelles,3,BTN,Bhutan,0.8192,urban_population_pct,internet_usage_pct,gdp_per_capita_ppp,life_expectancy
+SYC,Seychelles,4,TTO,Trinidad and Tobago,0.8582,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+SYC,Seychelles,5,MDV,Maldives,0.9355,internet_usage_pct,urban_population_pct,life_expectancy,population_65_plus_pct
+TCD,Chad,1,NER,Niger,1.0033,population_65_plus_pct,fertility_rate,life_expectancy,urban_population_pct
+TCD,Chad,2,CAF,Central African Republic,1.0952,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+TCD,Chad,3,MLI,Mali,1.3276,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+TCD,Chad,4,COD,"Congo, Dem. Rep.",1.334,fertility_rate,population_65_plus_pct,life_expectancy,urban_population_pct
+TCD,Chad,5,SOM,"Somalia, Fed. Rep.",1.5797,fertility_rate,population_65_plus_pct,urban_population_pct,internet_usage_pct
+TGO,Togo,1,GIN,Guinea,0.4911,population_65_plus_pct,fertility_rate,life_expectancy,urban_population_pct
+TGO,Togo,2,GNB,Guinea-Bissau,0.5652,population_65_plus_pct,urban_population_pct,internet_usage_pct,fertility_rate
+TGO,Togo,3,ZWE,Zimbabwe,0.5766,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,fertility_rate
+TGO,Togo,4,BEN,Benin,0.6334,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+TGO,Togo,5,CMR,Cameroon,0.6893,population_65_plus_pct,fertility_rate,urban_population_pct,gdp_per_capita_ppp
+THA,Thailand,1,CHN,China,0.3529,internet_usage_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+THA,Thailand,2,MKD,North Macedonia,0.3934,urban_population_pct,life_expectancy,population_65_plus_pct,fertility_rate
+THA,Thailand,3,ALB,Albania,0.5806,gdp_per_capita_ppp,fertility_rate,life_expectancy,population_65_plus_pct
+THA,Thailand,4,GEO,Georgia,0.6348,population_65_plus_pct,urban_population_pct,fertility_rate,internet_usage_pct
+THA,Thailand,5,ARM,Armenia,0.6621,gdp_per_capita_ppp,urban_population_pct,fertility_rate,internet_usage_pct
+TJK,Tajikistan,1,TON,Tonga,0.7442,fertility_rate,life_expectancy,internet_usage_pct,population_65_plus_pct
+TJK,Tajikistan,2,PAK,Pakistan,0.9444,population_65_plus_pct,internet_usage_pct,urban_population_pct,life_expectancy
+TJK,Tajikistan,3,FSM,"Micronesia, Fed. Sts.",1.0232,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+TJK,Tajikistan,4,KHM,Cambodia,1.0542,life_expectancy,population_65_plus_pct,urban_population_pct,internet_usage_pct
+TJK,Tajikistan,5,BGD,Bangladesh,1.0809,internet_usage_pct,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+TON,Tonga,1,TJK,Tajikistan,0.7442,fertility_rate,life_expectancy,internet_usage_pct,population_65_plus_pct
+TON,Tonga,2,KHM,Cambodia,1.0698,gdp_per_capita_ppp,internet_usage_pct,urban_population_pct,fertility_rate
+TON,Tonga,3,BGD,Bangladesh,1.1502,population_65_plus_pct,gdp_per_capita_ppp,fertility_rate,internet_usage_pct
+TON,Tonga,4,IND,India,1.1837,population_65_plus_pct,internet_usage_pct,fertility_rate,urban_population_pct
+TON,Tonga,5,LAO,Lao PDR,1.2225,internet_usage_pct,gdp_per_capita_ppp,urban_population_pct,fertility_rate
+TTO,Trinidad and Tobago,1,GEO,Georgia,0.6315,internet_usage_pct,life_expectancy,population_65_plus_pct,urban_population_pct
+TTO,Trinidad and Tobago,2,VCT,St. Vincent and the Grenadines,0.6708,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+TTO,Trinidad and Tobago,3,AZE,Azerbaijan,0.7412,fertility_rate,life_expectancy,population_65_plus_pct,internet_usage_pct
+TTO,Trinidad and Tobago,4,MUS,Mauritius,0.7976,life_expectancy,fertility_rate,urban_population_pct,internet_usage_pct
+TTO,Trinidad and Tobago,5,SYC,Seychelles,0.8582,gdp_per_capita_ppp,internet_usage_pct,population_65_plus_pct,urban_population_pct
+TUN,Tunisia,1,ECU,Ecuador,0.4106,fertility_rate,internet_usage_pct,urban_population_pct,population_65_plus_pct
+TUN,Tunisia,2,COL,Colombia,0.5657,population_65_plus_pct,internet_usage_pct,urban_population_pct,gdp_per_capita_ppp
+TUN,Tunisia,3,IRN,"Iran, Islamic Rep.",0.5838,fertility_rate,life_expectancy,internet_usage_pct,urban_population_pct
+TUN,Tunisia,4,CPV,Cabo Verde,0.5972,life_expectancy,internet_usage_pct,population_65_plus_pct,urban_population_pct
+TUN,Tunisia,5,MEX,Mexico,0.7393,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+TUR,Turkiye,1,ARG,Argentina,0.4234,internet_usage_pct,life_expectancy,gdp_per_capita_ppp,population_65_plus_pct
+TUR,Turkiye,2,BHS,"Bahamas, The",0.5932,gdp_per_capita_ppp,fertility_rate,life_expectancy,urban_population_pct
+TUR,Turkiye,3,BRA,Brazil,0.6634,urban_population_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+TUR,Turkiye,4,MYS,Malaysia,0.7444,fertility_rate,gdp_per_capita_ppp,urban_population_pct,population_65_plus_pct
+TUR,Turkiye,5,CRI,Costa Rica,0.7937,internet_usage_pct,fertility_rate,life_expectancy,urban_population_pct
+TZA,Tanzania,1,COM,Comoros,0.6357,life_expectancy,gdp_per_capita_ppp,fertility_rate,population_65_plus_pct
+TZA,Tanzania,2,RWA,Rwanda,0.8012,internet_usage_pct,gdp_per_capita_ppp,fertility_rate,urban_population_pct
+TZA,Tanzania,3,ZMB,Zambia,0.8298,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,urban_population_pct
+TZA,Tanzania,4,TGO,Togo,0.8429,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+TZA,Tanzania,5,ETH,Ethiopia,0.8846,population_65_plus_pct,life_expectancy,urban_population_pct,fertility_rate
+UGA,Uganda,1,ETH,Ethiopia,0.694,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,urban_population_pct
+UGA,Uganda,2,AFG,Afghanistan,0.7973,population_65_plus_pct,urban_population_pct,fertility_rate,gdp_per_capita_ppp
+UGA,Uganda,3,ZMB,Zambia,0.8022,population_65_plus_pct,fertility_rate,urban_population_pct,internet_usage_pct
+UGA,Uganda,4,MDG,Madagascar,0.947,urban_population_pct,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
+UGA,Uganda,5,TZA,Tanzania,1.0143,population_65_plus_pct,life_expectancy,internet_usage_pct,fertility_rate
+UKR,Ukraine,1,THA,Thailand,0.7444,fertility_rate,life_expectancy,population_65_plus_pct,internet_usage_pct
+UKR,Ukraine,2,MKD,North Macedonia,0.7619,population_65_plus_pct,life_expectancy,internet_usage_pct,gdp_per_capita_ppp
+UKR,Ukraine,3,BLR,Belarus,0.8677,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+UKR,Ukraine,4,CHN,China,0.9084,fertility_rate,urban_population_pct,population_65_plus_pct,life_expectancy
+UKR,Ukraine,5,GEO,Georgia,0.9512,life_expectancy,internet_usage_pct,fertility_rate,population_65_plus_pct
+URY,Uruguay,1,ARG,Argentina,0.5653,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+URY,Uruguay,2,CHL,Chile,0.6241,gdp_per_capita_ppp,internet_usage_pct,life_expectancy,urban_population_pct
+URY,Uruguay,3,NZL,New Zealand,0.8562,internet_usage_pct,fertility_rate,urban_population_pct,life_expectancy
+URY,Uruguay,4,TUR,Turkiye,0.8607,fertility_rate,internet_usage_pct,population_65_plus_pct,urban_population_pct
+URY,Uruguay,5,ISL,Iceland,0.9676,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp,life_expectancy
+USA,United States,1,GBR,United Kingdom,0.511,internet_usage_pct,fertility_rate,life_expectancy,gdp_per_capita_ppp
+USA,United States,2,NZL,New Zealand,0.6222,fertility_rate,internet_usage_pct,life_expectancy,gdp_per_capita_ppp
+USA,United States,3,CAN,Canada,0.6654,internet_usage_pct,urban_population_pct,life_expectancy,fertility_rate
+USA,United States,4,NOR,Norway,0.6724,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+USA,United States,5,AUS,Australia,0.7149,population_65_plus_pct,internet_usage_pct,life_expectancy,urban_population_pct
+UZB,Uzbekistan,1,EGY,"Egypt, Arab Rep.",1.0035,life_expectancy,population_65_plus_pct,fertility_rate,internet_usage_pct
+UZB,Uzbekistan,2,IRQ,Iraq,1.0175,life_expectancy,gdp_per_capita_ppp,urban_population_pct,population_65_plus_pct
+UZB,Uzbekistan,3,KGZ,Kyrgyz Republic,1.0964,population_65_plus_pct,life_expectancy,urban_population_pct,fertility_rate
+UZB,Uzbekistan,4,NAM,Namibia,1.2732,urban_population_pct,gdp_per_capita_ppp,internet_usage_pct,life_expectancy
+UZB,Uzbekistan,5,MNG,Mongolia,1.293,life_expectancy,population_65_plus_pct,urban_population_pct,fertility_rate
+VCT,St. Vincent and the Grenadines,1,TTO,Trinidad and Tobago,0.6708,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,life_expectancy
+VCT,St. Vincent and the Grenadines,2,MDA,Moldova,0.673,life_expectancy,fertility_rate,population_65_plus_pct,urban_population_pct
+VCT,St. Vincent and the Grenadines,3,MUS,Mauritius,0.7359,internet_usage_pct,population_65_plus_pct,urban_population_pct,gdp_per_capita_ppp
+VCT,St. Vincent and the Grenadines,4,VNM,Viet Nam,0.8311,fertility_rate,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+VCT,St. Vincent and the Grenadines,5,GRD,Grenada,0.8345,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+VNM,Viet Nam,1,BLZ,Belize,0.6649,fertility_rate,urban_population_pct,population_65_plus_pct,internet_usage_pct
+VNM,Viet Nam,2,BTN,Bhutan,0.6778,gdp_per_capita_ppp,life_expectancy,population_65_plus_pct,fertility_rate
+VNM,Viet Nam,3,SYC,Seychelles,0.7247,fertility_rate,population_65_plus_pct,gdp_per_capita_ppp,urban_population_pct
+VNM,Viet Nam,4,GRD,Grenada,0.8096,life_expectancy,urban_population_pct,internet_usage_pct,population_65_plus_pct
+VNM,Viet Nam,5,VCT,St. Vincent and the Grenadines,0.8311,fertility_rate,gdp_per_capita_ppp,life_expectancy,urban_population_pct
+ZAF,South Africa,1,FJI,Fiji,0.3,gdp_per_capita_ppp,population_65_plus_pct,urban_population_pct,life_expectancy
+ZAF,South Africa,2,BOL,Bolivia,0.6071,internet_usage_pct,population_65_plus_pct,urban_population_pct,life_expectancy
+ZAF,South Africa,3,IDN,Indonesia,0.7693,fertility_rate,population_65_plus_pct,life_expectancy,internet_usage_pct
+ZAF,South Africa,4,PHL,Philippines,0.8488,population_65_plus_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+ZAF,South Africa,5,DJI,Djibouti,0.966,life_expectancy,population_65_plus_pct,gdp_per_capita_ppp,internet_usage_pct
+ZMB,Zambia,1,GNB,Guinea-Bissau,0.7077,urban_population_pct,population_65_plus_pct,internet_usage_pct,life_expectancy
+ZMB,Zambia,2,SLE,Sierra Leone,0.7941,urban_population_pct,gdp_per_capita_ppp,life_expectancy,internet_usage_pct
+ZMB,Zambia,3,UGA,Uganda,0.8022,population_65_plus_pct,fertility_rate,urban_population_pct,internet_usage_pct
+ZMB,Zambia,4,TZA,Tanzania,0.8298,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,urban_population_pct
+ZMB,Zambia,5,COM,Comoros,0.9129,gdp_per_capita_ppp,life_expectancy,internet_usage_pct,urban_population_pct
+ZWE,Zimbabwe,1,TGO,Togo,0.5766,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp,fertility_rate
+ZWE,Zimbabwe,2,GIN,Guinea,0.6356,population_65_plus_pct,urban_population_pct,fertility_rate,internet_usage_pct
+ZWE,Zimbabwe,3,KEN,Kenya,0.6389,gdp_per_capita_ppp,population_65_plus_pct,fertility_rate,urban_population_pct
+ZWE,Zimbabwe,4,GNB,Guinea-Bissau,0.8261,population_65_plus_pct,fertility_rate,gdp_per_capita_ppp,internet_usage_pct
+ZWE,Zimbabwe,5,COM,Comoros,0.8315,fertility_rate,population_65_plus_pct,life_expectancy,gdp_per_capita_ppp
