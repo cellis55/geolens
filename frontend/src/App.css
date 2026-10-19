@@ -1087,3 +1087,435 @@ button {
     flex-wrap: wrap;
   }
 }
+
+
+/* ==========================================
+   STAGE 3 — ATLAS VIEW NAVIGATION
+   ========================================== */
+
+.atlas-view-navigation {
+  display: flex;
+  gap: 28px;
+  margin: -8px 0 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.atlas-view-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 3px 15px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: #718780;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.atlas-view-tab span {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.atlas-view-tab.active {
+  color: #153f48;
+  border-bottom-color: #287a78;
+}
+
+.atlas-view-tab:hover {
+  color: #287a78;
+}
+
+/* ==========================================
+   COUNTRY COMPARISON INTRODUCTION
+   ========================================== */
+
+.compare-page {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.compare-intro {
+  padding: 5px 0 8px;
+}
+
+.compare-intro h2 {
+  margin: 15px 0;
+  font-family: Georgia, serif;
+  font-size: clamp(36px, 3.8vw, 54px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -1.7px;
+  color: var(--ocean);
+}
+
+.compare-intro h2 em {
+  color: var(--teal);
+  font-weight: 400;
+}
+
+.compare-intro p {
+  max-width: 640px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* ==========================================
+   COUNTRY SELECTION
+   ========================================== */
+
+.compare-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 44px minmax(0, 1fr);
+  align-items: end;
+  gap: 15px;
+}
+
+.compare-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 0;
+}
+
+.compare-picker > span {
+  color: var(--teal);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+
+.compare-picker select {
+  width: 100%;
+  min-width: 0;
+  padding: 13px 15px;
+  border: 1px solid #cdded4;
+  border-radius: 6px;
+  background: #fcfbf6;
+  color: var(--ocean);
+  font-size: 13px;
+}
+
+.compare-picker select:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.compare-swap {
+  height: 45px;
+  border: 1px solid #b6d0c5;
+  border-radius: 6px;
+  background: #e3f0eb;
+  color: var(--teal);
+  font-size: 25px;
+}
+
+.compare-swap:hover {
+  background: #cfe5dc;
+}
+
+/* ==========================================
+   COUNTRY SUMMARY CARDS
+   ========================================== */
+
+.compare-country-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.compare-country-card {
+  min-width: 0;
+  padding: 26px 27px;
+  border-radius: 10px;
+}
+
+.compare-country-card.first {
+  background: #153f48;
+  color: #f6f6ef;
+}
+
+.compare-country-card.second {
+  background: #dcebe6;
+  color: #153f48;
+  border: 1px solid #c0d7cd;
+}
+
+.compare-country-card > span {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  opacity: 0.75;
+}
+
+.compare-country-card h3 {
+  margin: 18px 0 6px;
+  font-family: Georgia, serif;
+  font-size: clamp(23px, 2.3vw, 33px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.compare-country-card > p {
+  margin: 0 0 28px;
+  font-size: 12px;
+  opacity: 0.72;
+}
+
+.compare-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding-top: 18px;
+  border-top: 1px solid currentColor;
+  border-color: #809e9b55;
+}
+
+.compare-summary-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.compare-summary-metric > span {
+  font-size: 11px;
+  opacity: 0.75;
+}
+
+.compare-summary-metric strong {
+  font-family: Georgia, serif;
+  font-size: clamp(20px, 2.1vw, 30px);
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.compare-summary-metric small {
+  font-size: 10px;
+  opacity: 0.65;
+}
+
+/* ==========================================
+   COMPARISON INDICATORS
+   ========================================== */
+
+.compare-analysis {
+  padding: 28px 32px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fcfbf6;
+}
+
+.compare-analysis-heading h2 {
+  margin: 12px 0 8px;
+  font-family: Georgia, serif;
+  font-size: 31px;
+  font-weight: 400;
+  color: var(--ocean);
+}
+
+.compare-analysis-heading p {
+  max-width: 620px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.compare-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 22px 0 8px;
+}
+
+.compare-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #536e69;
+  font-size: 11px;
+}
+
+.compare-legend i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.compare-indicators {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 35px;
+  row-gap: 0;
+}
+
+.compare-indicator {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+  min-width: 0;
+}
+
+.compare-indicator-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.compare-indicator-heading h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ocean);
+}
+
+.compare-indicator-heading > span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.compare-bar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.compare-bar-line {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.compare-bar-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.compare-bar-label span {
+  min-width: 0;
+  color: #60776c;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.compare-bar-label strong {
+  color: var(--ocean);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.compare-bar-track {
+  height: 10px;
+  border-radius: 2px;
+  background: #e7ede8;
+  overflow: hidden;
+}
+
+.compare-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.25s ease;
+}
+
+.compare-bar-fill.first {
+  background: #153f48;
+}
+
+.compare-bar-fill.second {
+  background: #3d9b87;
+}
+
+.compare-bar-line small {
+  color: #92a198;
+  font-size: 10px;
+}
+
+/* ==========================================
+   METHODOLOGY NOTE
+   ========================================== */
+
+.compare-data-note {
+  padding: 20px 24px;
+  border-left: 3px solid var(--teal);
+  border-radius: 3px;
+  background: #e5efea;
+}
+
+.compare-data-note strong {
+  font-size: 12px;
+  color: var(--ocean);
+}
+
+.compare-data-note p {
+  max-width: 850px;
+  margin: 8px 0 0;
+  color: #657f73;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.compare-error {
+  padding: 30px;
+  color: #a33a3a;
+}
+
+/* ==========================================
+   RESPONSIVE COMPARISON PAGE
+   ========================================== */
+
+@media (max-width: 1050px) {
+  .compare-indicators {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .atlas-view-navigation {
+    gap: 18px;
+  }
+
+  .atlas-view-tab {
+    font-size: 12px;
+  }
+
+  .compare-controls {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .compare-swap {
+    width: 45px;
+    justify-self: center;
+  }
+
+  .compare-country-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-country-card {
+    padding: 22px;
+  }
+
+  .compare-analysis {
+    padding: 20px 18px;
+  }
+
+  .compare-summary-grid {
+    gap: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .compare-bar-fill {
+    transition: none;
+  }
+}
