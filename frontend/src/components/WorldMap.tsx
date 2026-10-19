@@ -168,9 +168,14 @@ export default function WorldMap({
                   string
                 >;
 
-                const code =
-                  properties["ISO3166-1-Alpha-3"];
+                // World Bank and GeoJSON country identifiers
+                // are not always identical.
+                const rawCode = properties["ISO3166-1-Alpha-3"];
 
+                const code =
+                  rawCode === "-99" && properties.name === "Kosovo"
+                    ? "XKX"
+                    : rawCode;
                 const country = countryByCode.get(code);
 
                 const isSelected =

@@ -6,6 +6,7 @@ import WorldMap from "./components/WorldMap";
 import CountryProfile from "./components/CountryProfile";
 import SimilarityPanel from "./components/SimilarityPanel";
 import CountryComparison from "./components/CountryComparison";
+import Methodology from "./components/Methodology";
 
 import type {
   GeoLensData,
@@ -16,7 +17,7 @@ import { metrics } from "./utils/formatting";
 
 import "./App.css";
 
-type View = "atlas" | "compare";
+type View = "atlas" | "compare"| "methodology";
 
 export default function App() {
   const [data, setData] = useState<GeoLensData | null>(null);
@@ -197,6 +198,22 @@ export default function App() {
             <span>02</span>
             Compare Countries
           </button>
+
+          <button
+            type="button"
+            className={
+              view === "methodology"
+                ? "atlas-view-tab active"
+                : "atlas-view-tab"
+            }
+            onClick={() => setView("methodology")}
+            aria-current={
+              view === "methodology" ? "page" : undefined
+            }
+          >
+            <span>03</span>
+            Data & Methodology
+          </button>
         </nav>
 
         {view === "atlas" ? (
@@ -315,7 +332,7 @@ export default function App() {
               )}
             </section>
           </>
-        ) : (
+        ) : view === "compare" ? (
           <CountryComparison
             countries={countries}
             firstCode={firstCode}
@@ -324,6 +341,8 @@ export default function App() {
             onSecondChange={handleSecondChange}
             onSwap={handleSwap}
           />
+        ) : (
+          <Methodology metadata={data.metadata} />
         )}
 
         <footer className="atlas-page-footer">

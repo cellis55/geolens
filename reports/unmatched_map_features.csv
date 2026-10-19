@@ -1,0 +1,43 @@
+feature_index,map_code,map_name,geometry_type
+6,,Dhekelia Sovereign Base Area,Polygon
+20,,Somaliland,Polygon
+27,ESH,Western Sahara,Polygon
+133,,US Naval Base Guantanamo Bay,MultiPolygon
+139,,Brazilian Island,Polygon
+167,VAT,Vatican,Polygon
+168,,Northern Cyprus,MultiPolygon
+169,,Cyprus No Mans Area,MultiPolygon
+170,,Siachen Glacier,Polygon
+171,,Baykonur Cosmodrome,Polygon
+172,,Akrotiri Sovereign Base Area,Polygon
+173,,Southern Patagonian Ice Field,Polygon
+174,,Bir Tawil,Polygon
+175,ATA,Antarctica,MultiPolygon
+188,TWN,Taiwan,MultiPolygon
+190,SPM,Saint Pierre and Miquelon,MultiPolygon
+192,PCN,Pitcairn Islands,MultiPolygon
+194,ATF,French Southern and Antarctic Lands,MultiPolygon
+204,UMI,United States Minor Outlying Islands,MultiPolygon
+205,MSR,Montserrat,Polygon
+209,BLM,Saint Barthelemy,Polygon
+211,AIA,Anguilla,MultiPolygon
+216,HMD,Heard Island and McDonald Islands,Polygon
+217,SHN,Saint Helena,MultiPolygon
+223,JEY,Jersey,Polygon
+224,GGY,Guernsey,MultiPolygon
+226,ALA,Aland,MultiPolygon
+228,,Indian Ocean Territories,MultiPolygon
+229,IOT,British Indian Ocean Territory,MultiPolygon
+231,NFK,Norfolk Island,Polygon
+232,COK,Cook Islands,MultiPolygon
+234,WLF,Wallis and Futuna,MultiPolygon
+241,SGS,South Georgia and the Islands,MultiPolygon
+242,FLK,Falkland Islands,MultiPolygon
+244,NIU,Niue,Polygon
+250,,Coral Sea Islands,Polygon
+251,,Spratly Islands,MultiPolygon
+252,,Clipperton Island,Polygon
+254,,Ashmore and Cartier Islands,Polygon
+255,,Bajo Nuevo Bank (Petrel Is.),Polygon
+256,,Serranilla Bank,Polygon
+257,,Scarborough Reef,Polygon

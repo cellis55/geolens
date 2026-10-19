@@ -1,0 +1,217 @@
+country_code,country_name,model_eligible,similarity_count
+ABW,Aruba,False,0
+AFG,Afghanistan,True,5
+AGO,Angola,True,5
+ALB,Albania,True,5
+AND,Andorra,True,5
+ARE,United Arab Emirates,True,5
+ARG,Argentina,True,5
+ARM,Armenia,True,5
+ASM,American Samoa,False,0
+ATG,Antigua and Barbuda,True,5
+AUS,Australia,True,5
+AUT,Austria,True,5
+AZE,Azerbaijan,True,5
+BDI,Burundi,True,5
+BEL,Belgium,True,5
+BEN,Benin,True,5
+BFA,Burkina Faso,True,5
+BGD,Bangladesh,True,5
+BGR,Bulgaria,True,5
+BHR,Bahrain,True,5
+BHS,"Bahamas, The",True,5
+BIH,Bosnia and Herzegovina,True,5
+BLR,Belarus,True,5
+BLZ,Belize,True,5
+BMU,Bermuda,False,0
+BOL,Bolivia,True,5
+BRA,Brazil,True,5
+BRB,Barbados,True,5
+BRN,Brunei Darussalam,True,5
+BTN,Bhutan,True,5
+BWA,Botswana,True,5
+CAF,Central African Republic,True,5
+CAN,Canada,True,5
+CHE,Switzerland,True,5
+CHL,Chile,True,5
+CHN,China,True,5
+CIV,Cote d'Ivoire,True,5
+CMR,Cameroon,True,5
+COD,"Congo, Dem. Rep.",True,5
+COG,"Congo, Rep.",True,5
+COL,Colombia,True,5
+COM,Comoros,True,5
+CPV,Cabo Verde,True,5
+CRI,Costa Rica,True,5
+CUB,Cuba,False,0
+CUW,Curacao,False,0
+CYM,Cayman Islands,False,0
+CYP,Cyprus,True,5
+CZE,Czechia,True,5
+DEU,Germany,True,5
+DJI,Djibouti,True,5
+DMA,Dominica,True,5
+DNK,Denmark,True,5
+DOM,Dominican Republic,True,5
+DZA,Algeria,True,5
+ECU,Ecuador,True,5
+EGY,"Egypt, Arab Rep.",True,5
+ERI,Eritrea,False,0
+ESP,Spain,True,5
+EST,Estonia,True,5
+ETH,Ethiopia,True,5
+FIN,Finland,True,5
+FJI,Fiji,True,5
+FRA,France,True,5
+FRO,Faroe Islands,False,0
+FSM,"Micronesia, Fed. Sts.",True,5
+GAB,Gabon,True,5
+GBR,United Kingdom,True,5
+GEO,Georgia,True,5
+GHA,Ghana,True,5
+GIB,Gibraltar,False,0
+GIN,Guinea,True,5
+GMB,"Gambia, The",True,5
+GNB,Guinea-Bissau,True,5
+GNQ,Equatorial Guinea,True,5
+GRC,Greece,True,5
+GRD,Grenada,True,5
+GRL,Greenland,False,0
+GTM,Guatemala,True,5
+GUM,Guam,False,0
+GUY,Guyana,True,5
+HKG,"Hong Kong SAR, China",True,5
+HND,Honduras,True,5
+HRV,Croatia,True,5
+HTI,Haiti,True,5
+HUN,Hungary,True,5
+IDN,Indonesia,True,5
+IMN,Isle of Man,False,0
+IND,India,True,5
+IRL,Ireland,True,5
+IRN,"Iran, Islamic Rep.",True,5
+IRQ,Iraq,True,5
+ISL,Iceland,True,5
+ISR,Israel,True,5
+ITA,Italy,True,5
+JAM,Jamaica,True,5
+JOR,Jordan,True,5
+JPN,Japan,True,5
+KAZ,Kazakhstan,True,5
+KEN,Kenya,True,5
+KGZ,Kyrgyz Republic,True,5
+KHM,Cambodia,True,5
+KIR,Kiribati,True,5
+KNA,St. Kitts and Nevis,True,5
+KOR,"Korea, Rep.",True,5
+KWT,Kuwait,True,5
+LAO,Lao PDR,True,5
+LBN,Lebanon,True,5
+LBR,Liberia,True,5
+LBY,Libya,True,5
+LCA,St. Lucia,True,5
+LIE,Liechtenstein,False,0
+LKA,Sri Lanka,True,5
+LSO,Lesotho,True,5
+LTU,Lithuania,True,5
+LUX,Luxembourg,True,5
+LVA,Latvia,True,5
+MAC,"Macao SAR, China",True,5
+MAF,St. Martin (French part),False,0
+MAR,Morocco,True,5
+MCO,Monaco,False,0
+MDA,Moldova,True,5
+MDG,Madagascar,True,5
+MDV,Maldives,True,5
+MEX,Mexico,True,5
+MHL,Marshall Islands,True,5
+MKD,North Macedonia,True,5
+MLI,Mali,True,5
+MLT,Malta,True,5
+MMR,Myanmar,False,0
+MNE,Montenegro,True,5
+MNG,Mongolia,True,5
+MNP,Northern Mariana Islands,False,0
+MOZ,Mozambique,True,5
+MRT,Mauritania,True,5
+MUS,Mauritius,True,5
+MWI,Malawi,True,5
+MYS,Malaysia,True,5
+NAM,Namibia,True,5
+NCL,New Caledonia,False,0
+NER,Niger,True,5
+NGA,Nigeria,True,5
+NIC,Nicaragua,True,5
+NLD,Netherlands,True,5
+NOR,Norway,True,5
+NPL,Nepal,True,5
+NRU,Naoero,True,5
+NZL,New Zealand,True,5
+OMN,Oman,True,5
+PAK,Pakistan,True,5
+PAN,Panama,True,5
+PER,Peru,True,5
+PHL,Philippines,True,5
+PLW,Palau,True,5
+PNG,Papua New Guinea,True,5
+POL,Poland,True,5
+PRI,Puerto Rico (US),True,5
+PRK,"Korea, Dem. People's Rep.",False,0
+PRT,Portugal,True,5
+PRY,Paraguay,True,5
+PSE,West Bank and Gaza,True,5
+PYF,French Polynesia,False,0
+QAT,Qatar,True,5
+ROU,Romania,True,5
+RUS,Russian Federation,True,5
+RWA,Rwanda,True,5
+SAU,Saudi Arabia,True,5
+SDN,Sudan,False,0
+SEN,Senegal,True,5
+SGP,Singapore,True,5
+SLB,Solomon Islands,True,5
+SLE,Sierra Leone,True,5
+SLV,El Salvador,True,5
+SMR,San Marino,True,5
+SOM,"Somalia, Fed. Rep.",True,5
+SRB,Serbia,True,5
+SSD,South Sudan,False,0
+STP,Sao Tome and Principe,True,5
+SUR,Suriname,True,5
+SVK,Slovak Republic,True,5
+SVN,Slovenia,True,5
+SWE,Sweden,True,5
+SWZ,Eswatini,True,5
+SXM,Sint Maarten (Dutch part),False,0
+SYC,Seychelles,True,5
+SYR,Syrian Arab Republic,False,0
+TCA,Turks and Caicos Islands,False,0
+TCD,Chad,True,5
+TGO,Togo,True,5
+THA,Thailand,True,5
+TJK,Tajikistan,True,5
+TKM,Turkmenistan,False,0
+TLS,Timor-Leste,False,0
+TON,Tonga,True,5
+TTO,Trinidad and Tobago,True,5
+TUN,Tunisia,True,5
+TUR,Turkiye,True,5
+TUV,Tuvalu,False,0
+TZA,Tanzania,True,5
+UGA,Uganda,True,5
+UKR,Ukraine,True,5
+URY,Uruguay,True,5
+USA,United States,True,5
+UZB,Uzbekistan,True,5
+VCT,St. Vincent and the Grenadines,True,5
+VEN,"Venezuela, RB",False,0
+VGB,British Virgin Islands,False,0
+VIR,Virgin Islands (U.S.),False,0
+VNM,Viet Nam,True,5
+VUT,Vanuatu,False,0
+WSM,Samoa,False,0
+XKX,Kosovo,False,0
+YEM,"Yemen, Rep.",False,0
+ZAF,South Africa,True,5
+ZMB,Zambia,True,5
+ZWE,Zimbabwe,True,5

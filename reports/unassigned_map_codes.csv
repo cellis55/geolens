@@ -1,0 +1,20 @@
+feature_index,map_code,map_name,geometry_type
+6,,Dhekelia Sovereign Base Area,Polygon
+20,,Somaliland,Polygon
+133,,US Naval Base Guantanamo Bay,MultiPolygon
+139,,Brazilian Island,Polygon
+168,,Northern Cyprus,MultiPolygon
+169,,Cyprus No Mans Area,MultiPolygon
+170,,Siachen Glacier,Polygon
+171,,Baykonur Cosmodrome,Polygon
+172,,Akrotiri Sovereign Base Area,Polygon
+173,,Southern Patagonian Ice Field,Polygon
+174,,Bir Tawil,Polygon
+228,,Indian Ocean Territories,MultiPolygon
+250,,Coral Sea Islands,Polygon
+251,,Spratly Islands,MultiPolygon
+252,,Clipperton Island,Polygon
+254,,Ashmore and Cartier Islands,Polygon
+255,,Bajo Nuevo Bank (Petrel Is.),Polygon
+256,,Serranilla Bank,Polygon
+257,,Scarborough Reef,Polygon

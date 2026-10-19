@@ -121,10 +121,13 @@ function ComparisonRow({
         <span>
           {difference === null
             ? "Comparison unavailable"
-            : `Absolute gap: ${formatMetric(
-                difference,
-                metric
-              )}`}
+            : metric === "urban_population_pct" ||
+                metric === "population_65_plus_pct" ||
+                metric === "internet_usage_pct"
+              ? `Difference: ${difference.toFixed(1)} percentage points`
+              : metric === "fertility_rate"
+                ? `Difference: ${difference.toFixed(2)} births per woman`
+                : `Absolute gap: ${formatMetric(difference, metric)}`}
         </span>
       </div>
 

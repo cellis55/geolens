@@ -1,0 +1,4 @@
+cluster,country_count,gdp_per_capita_ppp,life_expectancy,fertility_rate,urban_population_pct,population_65_plus_pct,internet_usage_pct
+1,71,20685.18,72.86,2.26,60.36,7.67,76.9
+2,42,4477.59,64.15,4.16,40.63,3.25,33.03
+3,68,63398.58,80.41,1.37,79.23,17.97,92.31
