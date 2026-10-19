@@ -1,53 +1,13 @@
 
 import { useEffect, useMemo, useState } from "react";
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
-} from "react-simple-maps";
+import WorldMap from "./components/WorldMap";
+
+import type {
+  GeoLensData,
+  MetricKey,
+} from "./types/country";
 import "./App.css";
 
-type SimilarCountry = {
-  rank: number;
-  country_code: string;
-  country_name: string;
-  distance: number;
-  closest_features: string[];
-  biggest_differences: string[];
-};
-
-type Country = {
-  country_code: string;
-  country_name: string;
-  region: string;
-  income_level: string;
-  population: number | null;
-  gdp_per_capita_ppp: number | null;
-  life_expectancy: number | null;
-  fertility_rate: number | null;
-  urban_population_pct: number | null;
-  population_65_plus_pct: number | null;
-  internet_usage_pct: number | null;
-  cluster: number | null;
-  model_eligible: boolean;
-  similar_countries: SimilarCountry[];
-};
-
-type GeoLensData = {
-  metadata: {
-    country_count: number;
-    modeled_country_count: number;
-  };
-  countries: Country[];
-};
-
-type MetricKey =
-  | "gdp_per_capita_ppp"
-  | "life_expectancy"
-  | "fertility_rate"
-  | "urban_population_pct"
-  | "population_65_plus_pct"
-  | "internet_usage_pct";
 
 const metrics: { key: MetricKey; label: string }[] = [
   { key: "gdp_per_capita_ppp", label: "GDP per capita (PPP)" },
@@ -103,7 +63,7 @@ function formatMetric(
 function App() {
   const [data, setData] = useState<GeoLensData | null>(null);
   const [error, setError] = useState("");
-  const [selectedCode, setSelectedCode] = useState("USA");
+  const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [metric, setMetric] =
     useState<MetricKey>("life_expectancy");
   const [search, setSearch] = useState("");
@@ -130,8 +90,9 @@ function App() {
     [countries]
   );
 
-  const selectedCountry =
-    countryByCode.get(selectedCode) ?? countries[0];
+  const selectedCountry = selectedCode
+    ? countryByCode.get(selectedCode) ?? null
+    : null;
 
   const filteredCountries = useMemo(
     () =>
@@ -147,68 +108,16 @@ function App() {
     [countries, search]
   );
 
-  const metricValues = useMemo(
-    () =>
-      countries
-        .map((country) => country[metric])
-        .filter(
-          (value): value is number =>
-            typeof value === "number" &&
-            Number.isFinite(value)
-        ),
-    [countries, metric]
-  );
-
-  const minValue = Math.min(...metricValues);
-  const maxValue = Math.max(...metricValues);
-
-  function getCountryColor(country?: Country) {
-    if (!country || country[metric] == null) {
-      return "#e5eaf0";
-    }
-
-    let value = country[metric]!;
-
-    // Logarithmic color scale for GDP, which is skewed.
-    if (metric === "gdp_per_capita_ppp") {
-      value = Math.log1p(value);
-    }
-
-    const min =
-      metric === "gdp_per_capita_ppp"
-        ? Math.log1p(minValue)
-        : minValue;
-
-    const max =
-      metric === "gdp_per_capita_ppp"
-        ? Math.log1p(maxValue)
-        : maxValue;
-
-    const normalized =
-      max === min ? 0.5 : (value - min) / (max - min);
-
-    // Five shades of blue.
-    const palette = [
-      "#c8e3ed",
-      "#92c6d9",
-      "#56a4c2",
-      "#267ba4",
-      "#124d79",
-    ];
-
-    const index = Math.min(
-      4,
-      Math.floor(normalized * 5)
+  function handleSelectCountry(code: string) {
+    setSelectedCode((current) =>
+    current === code ? null : code
     );
-
-    return palette[index];
   }
-
   if (error) {
     return <div className="status-message">{error}</div>;
   }
 
-  if (!data || !selectedCountry) {
+  if (!data) {
     return <div className="status-message">Loading GeoLens...</div>;
   }
 
@@ -247,7 +156,7 @@ function App() {
                     : "country-option"
                 }
                 onClick={() =>
-                  setSelectedCode(country.country_code)
+                  handleSelectCountry(country.country_code)
                 }
               >
                 {country.country_name}
@@ -298,184 +207,157 @@ function App() {
             </select>
           </div>
 
-          <div className="map-container">
-            <ComposableMap
-              projection="geoEqualEarth"
-              projectionConfig={{ scale: 155 }}
-              width={900}
-              height={440}
-            >
-              <Geographies geography="/data/world.geojson">
-                {({ geographies }) =>
-                  geographies.map((geo) => {
-                    const properties = geo.properties as Record<
-                      string,
-                      string
-                    >;
+          <WorldMap
+            countries={countries}
+            selectedCode={selectedCode}
+            metric={metric}
+            onSelectCountry={handleSelectCountry}
+          />
 
-                    const code =
-                      properties["ISO3166-1-Alpha-3"];
-
-                    const country = countryByCode.get(code);
-                    const isSelected = code === selectedCode;
-
-                    return (
-                      <Geography
-                        key={geo.rsmKey}
-                        geography={geo}
-                        onClick={() => {
-                          if (country) {
-                            setSelectedCode(code);
-                          }
-                        }}
-                        fill={getCountryColor(country)}
-                        stroke={
-                          isSelected ? "#f59e0b" : "#ffffff"
-                        }
-                        strokeWidth={isSelected ? 1.8 : 0.45}
-                        style={{
-                          outline: "none",
-                          cursor: country ? "pointer" : "default",
-                        }}
-                        className="map-country"
-                      >
-                        <title>
-                          {country?.country_name ??
-                            properties.name ??
-                            "No data"}
-                        </title>
-                      </Geography>
-                    );
-                  })
-                }
-              </Geographies>
-            </ComposableMap>
-          </div>
-
-          <div className="map-legend">
-            <span>Lower</span>
-            <div className="legend-colors">
-              {[
-                "#c8e3ed",
-                "#92c6d9",
-                "#56a4c2",
-                "#267ba4",
-                "#124d79",
-              ].map((color) => (
-                <span
-                  key={color}
-                  style={{ backgroundColor: color }}
-                />
-              ))}
-            </div>
-            <span>Higher</span>
-            <span className="legend-missing">
-              Gray = unavailable
-            </span>
-          </div>
         </section>
 
+        
         <section className="details-layout">
-          <div className="panel country-panel">
-            <div className="panel-heading">
-              <div>
-                <span className="eyebrow">COUNTRY PROFILE</span>
-                <h3>{selectedCountry.country_name}</h3>
-                <p>{selectedCountry.region}</p>
-              </div>
-              {selectedCountry.cluster != null && (
-                <span className="cluster-tag">
-                  Cluster {selectedCountry.cluster}
-                </span>
-              )}
-            </div>
+          {selectedCountry ? (
+            <>
+              {/* COUNTRY PROFILE */}
+              <div className="panel country-panel">
+                <div className="panel-heading">
+                  <div>
+                    <span className="eyebrow">COUNTRY PROFILE</span>
+                    <h3>{selectedCountry.country_name}</h3>
+                    <p>{selectedCountry.region}</p>
+                  </div>
 
-            <div className="stats-grid">
-              <div className="stat-card">
-                <span>Population</span>
-                <strong>
-                  {formatMetric(
-                    selectedCountry.population,
-                    "population"
+                  {selectedCountry.cluster != null && (
+                    <span className="cluster-tag">
+                      Cluster {selectedCountry.cluster}
+                    </span>
                   )}
-                </strong>
-              </div>
-
-              {metrics.map((item) => (
-                <div className="stat-card" key={item.key}>
-                  <span>{item.label}</span>
-                  <strong>
-                    {formatMetric(
-                      selectedCountry[item.key],
-                      item.key
-                    )}
-                  </strong>
                 </div>
-              ))}
-            </div>
 
-            {selectedCountry.cluster != null && (
-              <div className="cluster-description">
-                <strong>
-                  {clusterNames[selectedCountry.cluster]}
-                </strong>
-                <p>
-                  Grouped using six standardized economic,
-                  demographic, and social indicators.
-                </p>
-              </div>
-            )}
-          </div>
+                <div className="stats-grid">
+                  <div className="stat-card">
+                    <span>Population</span>
+                    <strong>
+                      {formatMetric(
+                        selectedCountry.population,
+                        "population"
+                      )}
+                    </strong>
+                  </div>
 
-          <div className="panel similarity-panel">
-            <div className="panel-heading">
-              <div>
-                <span className="eyebrow">MACHINE LEARNING</span>
-                <h3>Most Similar Countries</h3>
-                <p>Based on standardized Euclidean distance.</p>
-              </div>
-            </div>
+                  {metrics.map((item) => (
+                    <div className="stat-card" key={item.key}>
+                      <span>{item.label}</span>
+                      <strong>
+                        {formatMetric(
+                          selectedCountry[item.key],
+                          item.key
+                        )}
+                      </strong>
+                    </div>
+                  ))}
+                </div>
 
-            {selectedCountry.similar_countries.length > 0 ? (
-              <div className="similarity-list">
-                {selectedCountry.similar_countries.map(
-                  (match) => (
-                    <button
-                      className="similarity-item"
-                      key={match.country_code}
-                      onClick={() =>
-                        setSelectedCode(match.country_code)
-                      }
-                    >
-                      <span className="match-rank">
-                        {match.rank}
-                      </span>
-                      <span className="match-name">
-                        {match.country_name}
-                        <small>View country profile →</small>
-                      </span>
-                      <span className="match-distance">
-                        {match.distance.toFixed(3)}
-                      </span>
-                    </button>
-                  )
+                {selectedCountry.cluster != null && (
+                  <div className="cluster-description">
+                    <strong>
+                      {clusterNames[selectedCountry.cluster]}
+                    </strong>
+                    <p>
+                      Grouped using six standardized economic,
+                      demographic, and social indicators.
+                    </p>
+                  </div>
                 )}
               </div>
-            ) : (
-              <div className="empty-message">
-                Similarity rankings are unavailable for this
-                location because one or more required indicators
-                are missing or outdated.
-              </div>
-            )}
 
-            <p className="method-note">
-              Lower distance indicates greater statistical
-              similarity. Distances are not percentages or
-              probabilities.
-            </p>
-          </div>
+              {/* SIMILAR COUNTRIES */}
+              <div className="panel similarity-panel">
+                <div className="panel-heading">
+                  <div>
+                    <span className="eyebrow">MACHINE LEARNING</span>
+                    <h3>Most Similar Countries</h3>
+                    <p>Based on standardized Euclidean distance.</p>
+                  </div>
+                </div>
+
+                {selectedCountry.similar_countries.length > 0 ? (
+                  <div className="similarity-list">
+                    {selectedCountry.similar_countries.map((match) => (
+                      <button
+                        type="button"
+                        className="similarity-item"
+                        key={match.country_code}
+                        onClick={() =>
+                          handleSelectCountry(match.country_code)
+                        }
+                      >
+                        <span className="match-rank">
+                          {match.rank}
+                        </span>
+
+                        <span className="match-name">
+                          {match.country_name}
+                          <small>View country profile →</small>
+                        </span>
+
+                        <span className="match-distance">
+                          {match.distance.toFixed(3)}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="empty-message">
+                    Similarity rankings are unavailable for this
+                    location because one or more required indicators
+                    are missing or outdated.
+                  </div>
+                )}
+
+                <p className="method-note">
+                  Lower distance indicates greater statistical
+                  similarity. Distances are not percentages or
+                  probabilities.
+                </p>
+              </div>
+            </>
+          ) : (
+            /* EXPLORE ALL MODE */
+            <div className="panel explore-panel">
+              <span className="eyebrow">EXPLORE THE WORLD</span>
+
+              <h3>Discover countries through data.</h3>
+
+              <p>
+                Select any country on the map or use the country
+                search to explore its statistics and discover its
+                five most similar countries based on economic,
+                demographic, and social indicators.
+              </p>
+
+              <div className="explore-summary">
+                <div>
+                  <strong>{data.metadata.country_count}</strong>
+                  <span>Countries & economies</span>
+                </div>
+
+                <div>
+                  <strong>{data.metadata.modeled_country_count}</strong>
+                  <span>Similarity profiles</span>
+                </div>
+
+                <div>
+                  <strong>6</strong>
+                  <span>Model indicators</span>
+                </div>
+              </div>
+            </div>
+          )}
         </section>
+
 
         <footer className="page-footer">
           GeoLens · World Bank indicators, latest available
