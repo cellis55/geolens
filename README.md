@@ -5,9 +5,7 @@
 
 Built with **Python, scikit-learn, React, TypeScript, and Vite**, GeoLens transforms World Bank data into an explorable geographic experience.
 
-[**Explore the Live Atlas**](https://github.com/cellis55/geolens) · [**View Source Code**](https://github.com/cellis55/geolens)
-
-*The live atlas link will be updated after deployment.*
+[**Explore the Live Atlas ↗**](https://geolens-bice.vercel.app/) · [**View Source Code ↗**](https://github.com/cellis55/geolens)
 
 ---
 
