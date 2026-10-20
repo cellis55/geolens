@@ -7,6 +7,11 @@ Built with **Python, scikit-learn, React, TypeScript, and Vite**, GeoLens transf
 
 [**Explore the Live Atlas ↗**](https://geolens-bice.vercel.app/) · [**View Source Code ↗**](https://github.com/cellis55/geolens)
 
+![Image of Dashboard](screenshots/DashboardImage.png)
+
+![Image of Compare Countries Screen](screenshots/CompareCountriesImage.png)
+
+
 ---
 
 ## Project Overview
